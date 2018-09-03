@@ -1,0 +1,13 @@
+﻿火狐：
+（1）lessonBeforeShow-testDownload：点击不到‘更换教材’的“确定”按钮。
+（2）lessonBeforeShow-testLessonBeforeShow：点击不到‘更换教材’的“确定”按钮。
+（3）Activity-testBanner：点击不到banner的圆形按钮。
+（4）HomePage-testQQ1：点击不到悬浮的QQ图标。
+
+谷歌：
+（1）Service-testService：点击不到QQ图标。
+
+IE：
+（1）Download：由于程序点击不到IE的保存按钮,IE会暂停运行，再手动点击下载的保存或取消，IE继续运行。
+（2）Train-testStuTrain：程序切换不了新窗口。
+（3）Class3A-test3Aupload_kyy：输入密码有问题。

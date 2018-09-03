@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite000]">
+  <test name="test000(failed)">
+    <classes>
+      <class name="feishuo.KyyAppUITest.HomePage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testItemBottom"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- feishuo.KyyAppUITest.HomePage -->
+    </classes>
+  </test> <!-- test000(failed) -->
+</suite> <!-- Failed suite [Suite000] -->

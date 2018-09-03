@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG Report</title>
+<style type="text/css">
+table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}
+td,th {border:1px solid #009;padding:.25em .5em}
+.result th {vertical-align:bottom}
+.param th {padding-left:1em;padding-right:1em}
+.param td {padding-left:.5em;padding-right:2em}
+.stripe td,.stripe th {background-color: #E6EBF9}
+.numi,.numi_attn {text-align:right}
+.total td {font-weight:bold}
+.passedodd td {background-color: #0A0}
+.passedeven td {background-color: #3F3}
+.skippedodd td {background-color: #CCC}
+.skippedodd td {background-color: #DDD}
+.failedodd td,.numi_attn {background-color: #F33}
+.failedeven td,.stripe .numi_attn {background-color: #D00}
+.stacktrace {white-space:pre;font-family:monospace}
+.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="testOverview">
+<tr><th>Test</th><th>Methods<br/>Passed</th><th>Scenarios<br/>Passed</th><th># skipped</th><th># failed</th><th>Total<br/>Time</th><th>Included<br/>Groups</th><th>Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em"><a href="#t1">baidu</a></td><td class="numi">2</td><td class="numi">2</td><td class="numi_attn">1</td><td class="numi">0</td><td class="numi">43.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="methodOverview" id="summary">
+<tr><th>Class</th><th>Method</th><th>Authors</th><th># of<br/>Scenarios</th><th>Running Counts</th><th>Parameters</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr id="t1"><th colspan="5">baidu &#8212; skipped</th></tr>
+<tr class="skippedodd"><td>feishuo.BaiduWebUITest.baidu</td><td><a href="#m1540573161"><b>testfirefox</b>  </a></td><td>unknown</td><td class="numi">1</td><td></td><td></td><td>1501739328248</td><td class="numi">14720</td></tr>
+<tr><th colspan="5">baidu &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="2">feishuo.BaiduWebUITest.baidu</td><td><a href="#m-1967918226"><b>testchrome</b>  </a></td><td>unknown</td><td class="numi">1</td><td>1</td><td></td><td>1501739320857</td><td class="numi">7390</td></tr><tr class="passedodd"><td><a href="#m-724859120"><b>testie</b>  </a></td><td>unknown</td><td class="numi">1</td><td>1</td><td></td><td>1501739357596</td><td class="numi">6253</td></tr>
+</table>
+<h1>baidu</h1>
+<h2 id="m1540573161" name="m1540573161" >feishuo.BaiduWebUITest.baidu:testfirefox</h2>
+<div>
+<h3>Test Messages</h3>
+RunCount=2<br/>
+<h3>Failure</h3>
+<div class="stacktrace">org.openqa.selenium.NoSuchElementException: Unable to locate element: #w
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;DESKTOP-8ECR7HO&apos;, ip: &apos;192.168.1.19&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\admin\AppData\Local\Temp\rust_mozprofile.dztfJOY9p4z6, rotatable=false, timeouts={implicit=0.0, page load=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=52.0, platformVersion=10.0, moz:processID=7216.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: a409cebf-1658-4ee1-909b-04bffd730639
+*** Element info: {Using=id, value=w}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:453)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at feishuo.BaiduWebUITest.baidu.testfirefox(baidu.java:35)
+... Removed 32 stack frames</div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m-1967918226" name="m-1967918226" >feishuo.BaiduWebUITest.baidu:testchrome</h2>
+<div>
+This is chrome.这是谷歌。<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m-724859120" name="m-724859120" >feishuo.BaiduWebUITest.baidu:testie</h2>
+<div>
+This is IE.这是IE。<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

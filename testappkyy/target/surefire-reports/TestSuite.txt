@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 76, Failures: 2, Errors: 0, Skipped: 7, Time elapsed: 5,701.752 s <<< FAILURE! - in TestSuite
+testSet(feishuo.KyyAppUITest.Me)  Time elapsed: 12.474 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.42 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-8ECR7HO', ip: '192.168.1.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.kouyuyi.kyystuapp, networkConnectionEnabled=true, warnings={}, appWaitActivity=.activity.LoginActivity, databaseEnabled=false, deviceName=4YUDU16510018241, platform=LINUX, appActivity=com.kouyuyi.kyystuapp.zj.MainActivity, desired={appPackage=com.kouyuyi.kyystuapp, appActivity=com.kouyuyi.kyystuapp.zj.MainActivity, platformVersion=6.0, automationName=Appium, appWaitActivity=.activity.LoginActivity, sessionOverride=true, unicodeKeyboard=true, platformName=Android, udid=4YUDU16510018241, deviceName=NEM-TL00H, resetKeyboard=true}, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=Android, takesScreenshot=true, javascriptEnabled=true, sessionOverride=true, unicodeKeyboard=true, platformName=Android, udid=4YUDU16510018241, resetKeyboard=true}]
+Session ID: 37bbcc43-2d28-443b-8406-cd89e95a441a
+*** Element info: {Using=name, value=ÉèÖÃ}
+	at feishuo.KyyAppUITest.Me.testSet(Me.java:98)
+
+testChange(feishuo.KyyAppUITest.Set)  Time elapsed: 32.407 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-8ECR7HO', ip: '192.168.1.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.kouyuyi.kyystuapp, networkConnectionEnabled=true, warnings={}, appWaitActivity=.activity.LoginActivity, databaseEnabled=false, deviceName=4YUDU16510018241, platform=LINUX, appActivity=com.kouyuyi.kyystuapp.zj.MainActivity, desired={appPackage=com.kouyuyi.kyystuapp, appActivity=com.kouyuyi.kyystuapp.zj.MainActivity, platformVersion=6.0, automationName=Appium, appWaitActivity=.activity.LoginActivity, sessionOverride=true, unicodeKeyboard=true, platformName=Android, udid=4YUDU16510018241, deviceName=NEM-TL00H, resetKeyboard=true}, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=Android, takesScreenshot=true, javascriptEnabled=true, sessionOverride=true, unicodeKeyboard=true, platformName=Android, udid=4YUDU16510018241, resetKeyboard=true}]
+Session ID: 52f7eaa8-fefb-4513-aca4-cad6c2a599c2
+*** Element info: {Using=id, value=com.kouyuyi.kyystuapp:id/exit_btn}
+	at feishuo.KyyAppUITest.Set.testChange(Set.java:63)
+

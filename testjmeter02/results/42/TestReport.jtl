@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="173" it="0" lt="173" ct="109" ts="1534737914270" s="true" lb="打开app" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="392" sby="171" ng="1" na="1"/>
+<httpSample t="109" it="0" lt="107" ct="62" ts="1534737914473" s="true" lb="教师登录-自有版" rc="200" rm="" tn="线程组 1-1" dt="text" by="489" sby="493" ng="1" na="1"/>
+<httpSample t="64" it="0" lt="64" ct="31" ts="1534737914588" s="true" lb="学生登录-自有版" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="309" sby="257" ng="1" na="1"/>
+<httpSample t="37" it="0" lt="37" ct="0" ts="1534737914653" s="true" lb="banner" rc="200" rm="OK" tn="线程组 1-1" dt="" by="1277" sby="390" ng="1" na="1"/>
+<httpSample t="40" it="0" lt="40" ct="0" ts="1534737914693" s="true" lb="近期大赛" rc="200" rm="OK" tn="线程组 1-1" dt="" by="4035" sby="363" ng="1" na="1"/>
+<httpSample t="81" it="0" lt="81" ct="40" ts="1534737914736" s="true" lb="更新推送" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="863" sby="152" ng="1" na="1"/>
+<httpSample t="42" it="0" lt="41" ct="0" ts="1534737914820" s="true" lb="同步训练课本列表" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="1530" sby="759" ng="1" na="1"/>
+<httpSample t="41" it="0" lt="41" ct="0" ts="1534737914864" s="true" lb="选中课本‘适配译林版九年级下册’ " rc="200" rm="OK" tn="线程组 1-1" dt="text" by="760" sby="706" ng="1" na="1"/>
+<httpSample t="40" it="0" lt="40" ct="0" ts="1534737914909" s="true" lb="单词听说列表" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="695" sby="723" ng="1" na="1"/>
+<httpSample t="36" it="0" lt="36" ct="0" ts="1534737914952" s="true" lb="课文朗读列表" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="1089" sby="723" ng="1" na="1"/>
+<httpSample t="38" it="0" lt="38" ct="0" ts="1534737914989" s="true" lb="单词听写列表" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="695" sby="720" ng="1" na="1"/>
+<httpSample t="38" it="0" lt="37" ct="0" ts="1534737915028" s="true" lb="课文背诵列表" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="1089" sby="723" ng="1" na="1"/>
+<httpSample t="56" it="0" lt="56" ct="0" ts="1534737915068" s="true" lb="练习题库课本列表" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="1132" sby="759" ng="1" na="1"/>
+<httpSample t="38" it="0" lt="38" ct="0" ts="1534737915126" s="true" lb="选中课本‘适配人教版九年级全一册’" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="2647" sby="704" ng="1" na="1"/>
+<httpSample t="174" it="0" lt="112" ct="0" ts="1534737915166" s="true" lb="听力练习" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="31136" sby="312" ng="1" na="1"/>
+<httpSample t="413" it="0" lt="78" ct="0" ts="1534737915343" s="true" lb="笔试练习" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="27807" sby="312" ng="1" na="1"/>
+<httpSample t="49" it="0" lt="49" ct="0" ts="1534737915757" s="true" lb="专项练习" rc="200" rm="OK" tn="线程组 1-1" dt="" by="702" sby="247" ng="1" na="1"/>
+<httpSample t="430" it="0" lt="370" ct="0" ts="1534737915806" s="true" lb="专项1" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="30158" sby="271" ng="1" na="1"/>
+<httpSample t="38" it="0" lt="38" ct="0" ts="1534737916238" s="true" lb="情景话题" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="389" sby="759" ng="1" na="1"/>
+<httpSample t="37" it="0" lt="37" ct="0" ts="1534737916277" s="true" lb="初中日常话题" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="1736" sby="703" ng="1" na="1"/>
+<httpSample t="40" it="0" lt="40" ct="0" ts="1534737916315" s="true" lb="话题part列表" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="637" sby="720" ng="1" na="1"/>
+<httpSample t="99" it="0" lt="59" ct="0" ts="1534737916357" s="true" lb="卡通配音" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="10835" sby="701" ng="1" na="1"/>
+<httpSample t="79" it="0" lt="49" ct="0" ts="1534737916457" s="true" lb="我的配音" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="17261" sby="722" ng="1" na="1"/>
+<httpSample t="48" it="0" lt="48" ct="0" ts="1534737916538" s="true" lb="今日作业" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="375" sby="691" ng="1" na="1"/>
+<httpSample t="92" it="0" lt="92" ct="30" ts="1534737916588" s="true" lb="历史作业" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="11106" sby="717" ng="1" na="1"/>
+<httpSample t="674" it="0" lt="116" ct="0" ts="1534737916681" s="true" lb="播放列表" rc="200" rm="OK" tn="线程组 1-1" dt="" by="369288" sby="222" ng="1" na="1"/>
+<httpSample t="72" it="0" lt="71" ct="35" ts="1534737917357" s="true" lb="评测列表" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="990" sby="341" ng="1" na="1"/>
+<httpSample t="46" it="0" lt="46" ct="0" ts="1534737917430" s="true" lb="评测结果" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="639" sby="343" ng="1" na="1"/>
+<httpSample t="68" it="0" lt="68" ct="0" ts="1534737917478" s="true" lb="九年级评测" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="528" sby="304" ng="1" na="1"/>
+<httpSample t="78" it="0" lt="78" ct="0" ts="1534737917548" s="true" lb="我的" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="715" sby="288" ng="1" na="1"/>
+<httpSample t="1332" it="0" lt="1189" ct="953" ts="1534737917884" s="true" lb="历史成绩" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="205361" sby="167" ng="1" na="1"/>
+<httpSample t="36" it="0" lt="35" ct="0" ts="1534737919217" s="true" lb="奖品中心" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="4962" sby="281" ng="1" na="1"/>
+<httpSample t="30" it="0" lt="30" ct="15" ts="1534737919255" s="true" lb="关于口语易" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="4455" sby="141" ng="1" na="1"/>
+<httpSample t="19" it="0" lt="19" ct="0" ts="1534737919285" s="true" lb="常见问题" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="3740" sby="148" ng="1" na="1"/>
+<httpSample t="61" it="0" lt="60" ct="0" ts="1534737919305" s="true" lb="意见反馈" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="254" sby="331" ng="1" na="1"/>
+
+<httpSample t="217" it="0" lt="216" ct="67" ts="1534737921554" s="true" lb="学生登录1-广东版" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="310" sby="459" ng="1" na="1"/>
+<httpSample t="60" it="0" lt="60" ct="0" ts="1534737921798" s="true" lb="学生登录2-广东版" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="1464" sby="533" ng="1" na="1"/>
+<httpSample t="42" it="0" lt="42" ct="0" ts="1534737921859" s="true" lb="近期大赛" rc="200" rm="OK" tn="线程组 1-1" dt="" by="4035" sby="365" ng="1" na="1"/>
+<httpSample t="37" it="0" lt="37" ct="0" ts="1534737921902" s="true" lb="banner" rc="200" rm="OK" tn="线程组 1-1" dt="" by="1277" sby="390" ng="1" na="1"/>
+<httpSample t="83" it="0" lt="83" ct="0" ts="1534737921940" s="true" lb="教师登录1-广东版" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="310" sby="529" ng="1" na="1"/>
+<httpSample t="65" it="0" lt="65" ct="27" ts="1534737922024" s="true" lb="教师登录2-广东版" rc="200" rm="" tn="线程组 1-1" dt="text" by="489" sby="493" ng="1" na="1"/>
+<httpSample t="477" it="0" lt="477" ct="0" ts="1534737922091" s="true" lb="学生登录1-江苏版" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="415" sby="830" ng="1" na="1"/>
+<httpSample t="54" it="0" lt="54" ct="0" ts="1534737922569" s="true" lb="学生登录2-江苏版" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="1483" sby="537" ng="1" na="1"/>
+<httpSample t="41" it="0" lt="41" ct="0" ts="1534737922625" s="true" lb="banner" rc="200" rm="OK" tn="线程组 1-1" dt="" by="305" sby="390" ng="1" na="1"/>
+<httpSample t="50" it="0" lt="50" ct="0" ts="1534737922667" s="true" lb="近期大赛" rc="200" rm="OK" tn="线程组 1-1" dt="" by="1257" sby="365" ng="1" na="1"/>
+<httpSample t="48" it="0" lt="48" ct="0" ts="1534737922719" s="true" lb="教师登录1-江苏版" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="284" sby="823" ng="1" na="1"/>
+<httpSample t="52" it="0" lt="52" ct="0" ts="1534737922769" s="true" lb="教师登录2-江苏版" rc="200" rm="" tn="线程组 1-1" dt="text" by="489" sby="572" ng="1" na="1"/>
+
+<httpSample t="132" it="0" lt="130" ct="64" ts="1534737924697" s="true" lb="官网http" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="14380" sby="119" ng="1" na="1"/>
+<httpSample t="335" it="0" lt="0" ct="335" ts="1534737924850" s="false" lb="官网https" rc="Non HTTP response code: javax.net.ssl.SSLException" rm="Non HTTP response message: Unrecognized SSL message, plaintext connection?" tn="线程组 1-1" dt="text" by="2313" sby="0" ng="1" na="1"/>
+
+</testResults>

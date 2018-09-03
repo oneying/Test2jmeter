@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="baidu"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="1"
+           time="28.363">
+  <properties />
+  
+            <testcase name="testfirefox" time="0.0" classname="feishuo.BaiduWebUITest.baidu">
+          <skipped />
+    </testcase>
+  
+            <testcase name="testchrome" time="7.390" classname="feishuo.BaiduWebUITest.baidu" />
+                <testcase name="testie" time="6.253" classname="feishuo.BaiduWebUITest.baidu" />
+      
+</testsuite>

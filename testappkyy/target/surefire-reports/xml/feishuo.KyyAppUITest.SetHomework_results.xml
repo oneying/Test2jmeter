@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SetHomework"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="1"
+           time="76.652">
+  <properties />
+  
+            <testcase name="testCheck_message" time="0.0" classname="feishuo.KyyAppUITest.SetHomework">
+          <skipped />
+    </testcase>
+  
+            <testcase name="testCheck_class" time="4.324" classname="feishuo.KyyAppUITest.SetHomework" />
+                <testcase name="testCheck_message" time="23.109" classname="feishuo.KyyAppUITest.SetHomework" />
+                <testcase name="testCheck_unit" time="5.425" classname="feishuo.KyyAppUITest.SetHomework" />
+                <testcase name="testSet" time="33.296" classname="feishuo.KyyAppUITest.SetHomework" />
+      
+</testsuite>

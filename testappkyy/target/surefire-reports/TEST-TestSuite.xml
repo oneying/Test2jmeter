@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="5,701.752" tests="76" errors="0" skipped="7" failures="2">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\admin\.jenkins\workspace\testappkyy"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\admin\.jenkins\workspace\testappkyy"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\admin\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files (x86)\maven\apache-maven-3.5.0\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\maven\apache-maven-3.5.0/bin;C:\Program Files\Java\jdk1.8.0_121/bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files (x86)\Appium;C:\Program Files (x86)\Appium\node_modules\.bin;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\Java\jdk1.8.0_121\jre\bin;C:\Program Files (x86)\android-sdk-windows\platform-tools;C:\Program Files (x86)\android-sdk-windows\tools;C:\Program Files\nodejs;C:\Program Files (x86)\maven\apache-maven-3.5.0\bin;C:\Users\admin\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\admin\AppData\Local\Programs\Python\Python35\;C:\Users\admin\AppData\Roaming\npm;C:\Users\admin\AppData\Local\Programs\Fiddler;."/>
+    <property name="maven.conf" value="C:\Program Files (x86)\maven\apache-maven-3.5.0\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Program Files (x86)\maven\apache-maven-3.5.0\bin\..\lib\jansi-native\windows64"/>
+    <property name="user.home" value="C:\Users\admin"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="user.name" value="admin"/>
+    <property name="java.class.path" value="C:\Program Files (x86)\maven\apache-maven-3.5.0\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files (x86)\maven\apache-maven-3.5.0\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="LoginSuccess_Teacher" classname="feishuo.KyyAppUITest.LoginTeacher" time="26.529"/>
+  <testcase name="LoginSuccess_Teacher" classname="feishuo.KyyAppUITest.LoginTeacher" time="26.6"/>
+  <testcase name="LoginSuccess_Teacher" classname="feishuo.KyyAppUITest.LoginTeacher" time="27.106"/>
+  <testcase name="testLogin_fail01" classname="feishuo.KyyAppUITest.LoginTeacher" time="25.261"/>
+  <testcase name="testLogin_fail01" classname="feishuo.KyyAppUITest.LoginTeacher" time="28.078"/>
+  <testcase name="testLogin_fail01" classname="feishuo.KyyAppUITest.LoginTeacher" time="24.863"/>
+  <testcase name="testLogin_fail02" classname="feishuo.KyyAppUITest.LoginTeacher" time="29.04"/>
+  <testcase name="testLogin_fail02" classname="feishuo.KyyAppUITest.LoginTeacher" time="25.254"/>
+  <testcase name="testLogin_fail02" classname="feishuo.KyyAppUITest.LoginTeacher" time="25.282"/>
+  <testcase name="testLogin_fail04" classname="feishuo.KyyAppUITest.LoginTeacher" time="27.494"/>
+  <testcase name="testLogin_fail04" classname="feishuo.KyyAppUITest.LoginTeacher" time="27.531"/>
+  <testcase name="testLogin_fail04" classname="feishuo.KyyAppUITest.LoginTeacher" time="26.965"/>
+  <testcase name="testLogin_fail05" classname="feishuo.KyyAppUITest.LoginTeacher" time="26.875"/>
+  <testcase name="testLogin_fail05" classname="feishuo.KyyAppUITest.LoginTeacher" time="27.449"/>
+  <testcase name="testLogin_fail05" classname="feishuo.KyyAppUITest.LoginTeacher" time="27.916"/>
+  <testcase name="testCheck_class" classname="feishuo.KyyAppUITest.SetHomework" time="4.324"/>
+  <testcase name="testCheck_message" classname="feishuo.KyyAppUITest.SetHomework" time="0">
+    <skipped message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 10.46 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;DESKTOP-8ECR7HO&apos;, ip: &apos;192.168.1.19&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities [{appPackage=com.kouyuyi.kyystuapp, networkConnectionEnabled=true, warnings={}, appWaitActivity=.activity.LoginActivity, databaseEnabled=false, deviceName=4YUDU16510018241, platform=LINUX, appActivity=com.kouyuyi.kyystuapp.zj.MainActivity, desired={appPackage=com.kouyuyi.kyystuapp, appActivity=com.kouyuyi.kyystuapp.zj.MainActivity, platformVersion=6.0, automationName=Appium, appWaitActivity=.activity.LoginActivity, sessionOverride=true, unicodeKeyboard=true, platformName=Android, udid=4YUDU16510018241, deviceName=NEM-TL00H, resetKeyboard=true}, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=Android, takesScreenshot=true, javascriptEnabled=true, sessionOverride=true, unicodeKeyboard=true, platformName=Android, udid=4YUDU16510018241, resetKeyboard=true}]&#10;Session ID: 60201ee9-7cf5-466a-bd75-ff7c69e3afbe&#10;*** Element info: {Using=accessibility id, value=口语易测试学校六年级1班}"/>
+  </testcase>
+  <testcase name="testCheck_message" classname="feishuo.KyyAppUITest.SetHomework" time="23.108"/>
+  <testcase name="testCheck_unit" classname="feishuo.KyyAppUITest.SetHomework" time="5.425"/>
+  <testcase name="testSet" classname="feishuo.KyyAppUITest.SetHomework" time="33.296"/>
+  <testcase name="testCheckHw1" classname="feishuo.KyyAppUITest.Link" time="8.821"/>
+  <testcase name="testCheckHw2" classname="feishuo.KyyAppUITest.Link" time="1.703"/>
+  <testcase name="testCheckTrain" classname="feishuo.KyyAppUITest.Link" time="1.665"/>
+  <testcase name="testLogin_OK" classname="feishuo.KyyAppUITest.LoginStudent" time="34.74"/>
+  <testcase name="testLogin_OK" classname="feishuo.KyyAppUITest.LoginStudent" time="34.042"/>
+  <testcase name="testLogin_OK" classname="feishuo.KyyAppUITest.LoginStudent" time="34.54"/>
+  <testcase name="testLogin_fail01" classname="feishuo.KyyAppUITest.LoginStudent" time="25.261"/>
+  <testcase name="testLogin_fail01" classname="feishuo.KyyAppUITest.LoginStudent" time="25.263"/>
+  <testcase name="testLogin_fail01" classname="feishuo.KyyAppUITest.LoginStudent" time="24.343"/>
+  <testcase name="testLogin_fail02" classname="feishuo.KyyAppUITest.LoginStudent" time="26.205"/>
+  <testcase name="testLogin_fail02" classname="feishuo.KyyAppUITest.LoginStudent" time="28.212"/>
+  <testcase name="testLogin_fail02" classname="feishuo.KyyAppUITest.LoginStudent" time="25.434"/>
+  <testcase name="testLogin_fail04" classname="feishuo.KyyAppUITest.LoginStudent" time="27.73"/>
+  <testcase name="testLogin_fail04" classname="feishuo.KyyAppUITest.LoginStudent" time="24.642"/>
+  <testcase name="testLogin_fail04" classname="feishuo.KyyAppUITest.LoginStudent" time="24.485"/>
+  <testcase name="testLogin_fail05" classname="feishuo.KyyAppUITest.LoginStudent" time="25.199"/>
+  <testcase name="testLogin_fail05" classname="feishuo.KyyAppUITest.LoginStudent" time="25.473"/>
+  <testcase name="testLogin_fail05" classname="feishuo.KyyAppUITest.LoginStudent" time="25.278"/>
+  <testcase name="testItemBottom" classname="feishuo.KyyAppUITest.HomePage" time="7.111"/>
+  <testcase name="testItemMiddle" classname="feishuo.KyyAppUITest.HomePage" time="9.768"/>
+  <testcase name="testPast" classname="feishuo.KyyAppUITest.HomePage" time="15.395"/>
+  <testcase name="testChange" classname="feishuo.KyyAppUITest.Train" time="22.249"/>
+  <testcase name="testChoose" classname="feishuo.KyyAppUITest.Train" time="14.523"/>
+  <testcase name="testTrainText" classname="feishuo.KyyAppUITest.Train" time="43.027"/>
+  <testcase name="testTrainWord" classname="feishuo.KyyAppUITest.Train" time="48.288"/>
+  <testcase name="testChoose" classname="feishuo.KyyAppUITest.Exercise" time="22.534"/>
+  <testcase name="testListen" classname="feishuo.KyyAppUITest.Exercise" time="21.71"/>
+  <testcase name="testSpecial" classname="feishuo.KyyAppUITest.Exercise" time="210.72"/>
+  <testcase name="testWrite" classname="feishuo.KyyAppUITest.Exercise" time="210.548"/>
+  <testcase name="testChange" classname="feishuo.KyyAppUITest.Topic" time="21.255"/>
+  <testcase name="testChoose" classname="feishuo.KyyAppUITest.Topic" time="42.089"/>
+  <testcase name="testCartoon" classname="feishuo.KyyAppUITest.Cartoon" time="55.659"/>
+  <testcase name="testChange" classname="feishuo.KyyAppUITest.Play" time="0">
+    <skipped message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 10.28 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;DESKTOP-8ECR7HO&apos;, ip: &apos;192.168.1.19&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities [{appPackage=com.kouyuyi.kyystuapp, networkConnectionEnabled=true, warnings={}, appWaitActivity=.activity.LoginActivity, databaseEnabled=false, deviceName=4YUDU16510018241, platform=LINUX, appActivity=com.kouyuyi.kyystuapp.zj.MainActivity, desired={appPackage=com.kouyuyi.kyystuapp, appActivity=com.kouyuyi.kyystuapp.zj.MainActivity, platformVersion=6.0, automationName=Appium, appWaitActivity=.activity.LoginActivity, sessionOverride=true, unicodeKeyboard=true, platformName=Android, udid=4YUDU16510018241, deviceName=NEM-TL00H, resetKeyboard=true}, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=Android, takesScreenshot=true, javascriptEnabled=true, sessionOverride=true, unicodeKeyboard=true, platformName=Android, udid=4YUDU16510018241, resetKeyboard=true}]&#10;Session ID: e33d0c51-3386-4ef2-86eb-8bbbc6b3a7c7&#10;*** Element info: {Using=id, value=com.kouyuyi.kyystuapp:id/navigation_tv}"/>
+    <system-out><![CDATA[true
+]]></system-out>
+  </testcase>
+  <testcase name="testChange" classname="feishuo.KyyAppUITest.Play" time="42.726"/>
+  <testcase name="testList" classname="feishuo.KyyAppUITest.Play" time="185.043"/>
+  <testcase name="testPlay" classname="feishuo.KyyAppUITest.Play" time="0">
+    <skipped message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 10.54 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;DESKTOP-8ECR7HO&apos;, ip: &apos;192.168.1.19&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities [{appPackage=com.kouyuyi.kyystuapp, networkConnectionEnabled=true, warnings={}, appWaitActivity=.activity.LoginActivity, databaseEnabled=false, deviceName=4YUDU16510018241, platform=LINUX, appActivity=com.kouyuyi.kyystuapp.zj.MainActivity, desired={appPackage=com.kouyuyi.kyystuapp, appActivity=com.kouyuyi.kyystuapp.zj.MainActivity, platformVersion=6.0, automationName=Appium, appWaitActivity=.activity.LoginActivity, sessionOverride=true, unicodeKeyboard=true, platformName=Android, udid=4YUDU16510018241, deviceName=NEM-TL00H, resetKeyboard=true}, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=Android, takesScreenshot=true, javascriptEnabled=true, sessionOverride=true, unicodeKeyboard=true, platformName=Android, udid=4YUDU16510018241, resetKeyboard=true}]&#10;Session ID: 24c13438-9d18-4385-a93a-f36225646ccd&#10;*** Element info: {Using=id, value=com.kouyuyi.kyystuapp:id/item_checkbox}"/>
+  </testcase>
+  <testcase name="testPlay" classname="feishuo.KyyAppUITest.Play" time="35.881"/>
+  <testcase name="testStatu" classname="feishuo.KyyAppUITest.Play" time="0">
+    <skipped message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 10.31 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;DESKTOP-8ECR7HO&apos;, ip: &apos;192.168.1.19&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities [{appPackage=com.kouyuyi.kyystuapp, networkConnectionEnabled=true, warnings={}, appWaitActivity=.activity.LoginActivity, databaseEnabled=false, deviceName=4YUDU16510018241, platform=LINUX, appActivity=com.kouyuyi.kyystuapp.zj.MainActivity, desired={appPackage=com.kouyuyi.kyystuapp, appActivity=com.kouyuyi.kyystuapp.zj.MainActivity, platformVersion=6.0, automationName=Appium, appWaitActivity=.activity.LoginActivity, sessionOverride=true, unicodeKeyboard=true, platformName=Android, udid=4YUDU16510018241, deviceName=NEM-TL00H, resetKeyboard=true}, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=Android, takesScreenshot=true, javascriptEnabled=true, sessionOverride=true, unicodeKeyboard=true, platformName=Android, udid=4YUDU16510018241, resetKeyboard=true}]&#10;Session ID: 9f816451-47e4-4a5d-8dc9-63c1cb0d3e5f&#10;*** Element info: {Using=id, value=com.kouyuyi.kyystuapp:id/checkbox}"/>
+    <system-out><![CDATA[true
+]]></system-out>
+  </testcase>
+  <testcase name="testStatu" classname="feishuo.KyyAppUITest.Play" time="36.916"/>
+  <testcase name="testPlay" classname="feishuo.KyyAppUITest.Fighting" time="32.003"/>
+  <testcase name="testBuy" classname="feishuo.KyyAppUITest.Me" time="0">
+    <skipped message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 10.37 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;DESKTOP-8ECR7HO&apos;, ip: &apos;192.168.1.19&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities [{appPackage=com.kouyuyi.kyystuapp, networkConnectionEnabled=true, warnings={}, appWaitActivity=.activity.LoginActivity, databaseEnabled=false, deviceName=4YUDU16510018241, platform=LINUX, appActivity=com.kouyuyi.kyystuapp.zj.MainActivity, desired={appPackage=com.kouyuyi.kyystuapp, appActivity=com.kouyuyi.kyystuapp.zj.MainActivity, platformVersion=6.0, automationName=Appium, appWaitActivity=.activity.LoginActivity, sessionOverride=true, unicodeKeyboard=true, platformName=Android, udid=4YUDU16510018241, deviceName=NEM-TL00H, resetKeyboard=true}, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=Android, takesScreenshot=true, javascriptEnabled=true, sessionOverride=true, unicodeKeyboard=true, platformName=Android, udid=4YUDU16510018241, resetKeyboard=true}]&#10;Session ID: 15936b3c-3081-42de-bd6a-16505f24f7fa&#10;*** Element info: {Using=id, value=com.kouyuyi.kyystuapp:id/title_view}"/>
+  </testcase>
+  <testcase name="testBuy" classname="feishuo.KyyAppUITest.Me" time="16.069"/>
+  <testcase name="testInformation" classname="feishuo.KyyAppUITest.Me" time="1.775"/>
+  <testcase name="testPrize" classname="feishuo.KyyAppUITest.Me" time="6.317"/>
+  <testcase name="testScore" classname="feishuo.KyyAppUITest.Me" time="6.213"/>
+  <testcase name="testSet" classname="feishuo.KyyAppUITest.Me" time="0">
+    <skipped message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 10.22 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;DESKTOP-8ECR7HO&apos;, ip: &apos;192.168.1.19&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities [{appPackage=com.kouyuyi.kyystuapp, networkConnectionEnabled=true, warnings={}, appWaitActivity=.activity.LoginActivity, databaseEnabled=false, deviceName=4YUDU16510018241, platform=LINUX, appActivity=com.kouyuyi.kyystuapp.zj.MainActivity, desired={appPackage=com.kouyuyi.kyystuapp, appActivity=com.kouyuyi.kyystuapp.zj.MainActivity, platformVersion=6.0, automationName=Appium, appWaitActivity=.activity.LoginActivity, sessionOverride=true, unicodeKeyboard=true, platformName=Android, udid=4YUDU16510018241, deviceName=NEM-TL00H, resetKeyboard=true}, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=Android, takesScreenshot=true, javascriptEnabled=true, sessionOverride=true, unicodeKeyboard=true, platformName=Android, udid=4YUDU16510018241, resetKeyboard=true}]&#10;Session ID: c5032957-beb9-4ca0-acc6-b468c3e13a4d&#10;*** Element info: {Using=name, value=设置}"/>
+  </testcase>
+  <testcase name="testSet" classname="feishuo.KyyAppUITest.Me" time="12.474">
+    <failure message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 10.42 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;DESKTOP-8ECR7HO&apos;, ip: &apos;192.168.1.19&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities [{appPackage=com.kouyuyi.kyystuapp, networkConnectionEnabled=true, warnings={}, appWaitActivity=.activity.LoginActivity, databaseEnabled=false, deviceName=4YUDU16510018241, platform=LINUX, appActivity=com.kouyuyi.kyystuapp.zj.MainActivity, desired={appPackage=com.kouyuyi.kyystuapp, appActivity=com.kouyuyi.kyystuapp.zj.MainActivity, platformVersion=6.0, automationName=Appium, appWaitActivity=.activity.LoginActivity, sessionOverride=true, unicodeKeyboard=true, platformName=Android, udid=4YUDU16510018241, deviceName=NEM-TL00H, resetKeyboard=true}, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=Android, takesScreenshot=true, javascriptEnabled=true, sessionOverride=true, unicodeKeyboard=true, platformName=Android, udid=4YUDU16510018241, resetKeyboard=true}]&#10;Session ID: 37bbcc43-2d28-443b-8406-cd89e95a441a&#10;*** Element info: {Using=name, value=设置}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.42 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-8ECR7HO', ip: '192.168.1.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.kouyuyi.kyystuapp, networkConnectionEnabled=true, warnings={}, appWaitActivity=.activity.LoginActivity, databaseEnabled=false, deviceName=4YUDU16510018241, platform=LINUX, appActivity=com.kouyuyi.kyystuapp.zj.MainActivity, desired={appPackage=com.kouyuyi.kyystuapp, appActivity=com.kouyuyi.kyystuapp.zj.MainActivity, platformVersion=6.0, automationName=Appium, appWaitActivity=.activity.LoginActivity, sessionOverride=true, unicodeKeyboard=true, platformName=Android, udid=4YUDU16510018241, deviceName=NEM-TL00H, resetKeyboard=true}, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=Android, takesScreenshot=true, javascriptEnabled=true, sessionOverride=true, unicodeKeyboard=true, platformName=Android, udid=4YUDU16510018241, resetKeyboard=true}]
+Session ID: 37bbcc43-2d28-443b-8406-cd89e95a441a
+*** Element info: {Using=name, value=设置}
+	at feishuo.KyyAppUITest.Me.testSet(Me.java:98)
+</failure>
+  </testcase>
+  <testcase name="testBuy" classname="feishuo.KyyAppUITest.Prize" time="4.939"/>
+  <testcase name="testMore" classname="feishuo.KyyAppUITest.Prize" time="6.301"/>
+  <testcase name="testAbout" classname="feishuo.KyyAppUITest.Set" time="1.751"/>
+  <testcase name="testChange" classname="feishuo.KyyAppUITest.Set" time="0">
+    <skipped message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 10.05 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;DESKTOP-8ECR7HO&apos;, ip: &apos;192.168.1.19&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities [{appPackage=com.kouyuyi.kyystuapp, networkConnectionEnabled=true, warnings={}, appWaitActivity=.activity.LoginActivity, databaseEnabled=false, deviceName=4YUDU16510018241, platform=LINUX, appActivity=com.kouyuyi.kyystuapp.zj.MainActivity, desired={appPackage=com.kouyuyi.kyystuapp, appActivity=com.kouyuyi.kyystuapp.zj.MainActivity, platformVersion=6.0, automationName=Appium, appWaitActivity=.activity.LoginActivity, sessionOverride=true, unicodeKeyboard=true, platformName=Android, udid=4YUDU16510018241, deviceName=NEM-TL00H, resetKeyboard=true}, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=Android, takesScreenshot=true, javascriptEnabled=true, sessionOverride=true, unicodeKeyboard=true, platformName=Android, udid=4YUDU16510018241, resetKeyboard=true}]&#10;Session ID: 67f8b809-4360-4445-b164-339d73892359&#10;*** Element info: {Using=id, value=com.kouyuyi.kyystuapp:id/exit_btn}"/>
+  </testcase>
+  <testcase name="testChange" classname="feishuo.KyyAppUITest.Set" time="32.407">
+    <failure message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 10.04 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;DESKTOP-8ECR7HO&apos;, ip: &apos;192.168.1.19&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities [{appPackage=com.kouyuyi.kyystuapp, networkConnectionEnabled=true, warnings={}, appWaitActivity=.activity.LoginActivity, databaseEnabled=false, deviceName=4YUDU16510018241, platform=LINUX, appActivity=com.kouyuyi.kyystuapp.zj.MainActivity, desired={appPackage=com.kouyuyi.kyystuapp, appActivity=com.kouyuyi.kyystuapp.zj.MainActivity, platformVersion=6.0, automationName=Appium, appWaitActivity=.activity.LoginActivity, sessionOverride=true, unicodeKeyboard=true, platformName=Android, udid=4YUDU16510018241, deviceName=NEM-TL00H, resetKeyboard=true}, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=Android, takesScreenshot=true, javascriptEnabled=true, sessionOverride=true, unicodeKeyboard=true, platformName=Android, udid=4YUDU16510018241, resetKeyboard=true}]&#10;Session ID: 52f7eaa8-fefb-4513-aca4-cad6c2a599c2&#10;*** Element info: {Using=id, value=com.kouyuyi.kyystuapp:id/exit_btn}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-8ECR7HO', ip: '192.168.1.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.kouyuyi.kyystuapp, networkConnectionEnabled=true, warnings={}, appWaitActivity=.activity.LoginActivity, databaseEnabled=false, deviceName=4YUDU16510018241, platform=LINUX, appActivity=com.kouyuyi.kyystuapp.zj.MainActivity, desired={appPackage=com.kouyuyi.kyystuapp, appActivity=com.kouyuyi.kyystuapp.zj.MainActivity, platformVersion=6.0, automationName=Appium, appWaitActivity=.activity.LoginActivity, sessionOverride=true, unicodeKeyboard=true, platformName=Android, udid=4YUDU16510018241, deviceName=NEM-TL00H, resetKeyboard=true}, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=Android, takesScreenshot=true, javascriptEnabled=true, sessionOverride=true, unicodeKeyboard=true, platformName=Android, udid=4YUDU16510018241, resetKeyboard=true}]
+Session ID: 52f7eaa8-fefb-4513-aca4-cad6c2a599c2
+*** Element info: {Using=id, value=com.kouyuyi.kyystuapp:id/exit_btn}
+	at feishuo.KyyAppUITest.Set.testChange(Set.java:63)
+</failure>
+  </testcase>
+  <testcase name="testClear" classname="feishuo.KyyAppUITest.Set" time="7.998"/>
+  <testcase name="testExitLogin" classname="feishuo.KyyAppUITest.Set" time="35.596"/>
+  <testcase name="testProblem" classname="feishuo.KyyAppUITest.Set" time="2.038"/>
+  <testcase name="testWelcome" classname="feishuo.KyyAppUITest.Set" time="1.513"/>
+</testsuite>

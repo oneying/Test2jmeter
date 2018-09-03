@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="4" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[角色选择学生]]>
+    </line>
+    <line>
+      <![CDATA[登录学生账号未订购mzls01]]>
+    </line>
+    <line>
+      <![CDATA[按返回键，取消更新提示框]]>
+    </line>
+    <line>
+      <![CDATA[按返回键，取消订购提示框]]>
+    </line>
+    <line>
+      <![CDATA[进入同步训练]]>
+    </line>
+    <line>
+      <![CDATA[如果进入了目录，要先选书本再选单元]]>
+    </line>
+    <line>
+      <![CDATA[选择2年级和第3本书]]>
+    </line>
+    <line>
+      <![CDATA[选择第3单元]]>
+    </line>
+    <line>
+      <![CDATA[点击取消]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite000" duration-ms="57091" started-at="2017-11-28T02:03:06Z" finished-at="2017-11-28T02:04:03Z">
+    <groups>
+    </groups>
+    <test name="test000" duration-ms="57091" started-at="2017-11-28T02:03:06Z" finished-at="2017-11-28T02:04:03Z">
+      <class name="feishuo.KyyAppUITest.Train">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:feishuo.KyyAppUITest.Train@3f49dace]" name="setUp" is-config="true" duration-ms="46194" started-at="2017-11-28T10:03:06Z" finished-at="2017-11-28T10:03:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[角色选择学生]]>
+            </line>
+            <line>
+              <![CDATA[登录学生账号未订购mzls01]]>
+            </line>
+            <line>
+              <![CDATA[按返回键，取消更新提示框]]>
+            </line>
+            <line>
+              <![CDATA[按返回键，取消订购提示框]]>
+            </line>
+            <line>
+              <![CDATA[进入同步训练]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testChoose()[pri:0, instance:feishuo.KyyAppUITest.Train@3f49dace]" name="testChoose" duration-ms="9012" started-at="2017-11-28T10:03:52Z" finished-at="2017-11-28T10:04:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[如果进入了目录，要先选书本再选单元]]>
+            </line>
+            <line>
+              <![CDATA[选择2年级和第3本书]]>
+            </line>
+            <line>
+              <![CDATA[选择第3单元]]>
+            </line>
+            <line>
+              <![CDATA[点击取消]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testChoose -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:feishuo.KyyAppUITest.Train@3f49dace]" name="tearDown" is-config="true" duration-ms="1856" started-at="2017-11-28T10:04:01Z" finished-at="2017-11-28T10:04:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- feishuo.KyyAppUITest.Train -->
+    </test> <!-- test000 -->
+  </suite> <!-- Suite000 -->
+</testng-results>

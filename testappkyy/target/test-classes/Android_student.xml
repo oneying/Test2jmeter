@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="AndroidSuite">  <!--口语易：安卓-->
+
+    <test name="StudentLogin" preserve-order="true">      <!--学生登录-->
+       <classes>
+          <class name="feishuo.KyyAppUITest.LoginStudent" />  <!--学生登录-->  
+       </classes>  
+    </test>
+    
+    <test name="HomePage" preserve-order="true">      <!--学生首页-->
+       <classes>
+          <class name="feishuo.KyyAppUITest.HomePage" />  <!--学生首页-->
+          <class name="feishuo.KyyAppUITest.Train" />  <!--同步训练-->
+          <class name="feishuo.KyyAppUITest.Exercise" />  <!--练习题库-->
+          <class name="feishuo.KyyAppUITest.Topic" />  <!--情景话题--> 
+          <class name="feishuo.KyyAppUITest.Cartoon" />  <!--卡通欣赏-->   
+       </classes>  
+    </test>
+    
+    <test name="Play" preserve-order="true">      <!--播放-->
+       <classes>
+          <class name="feishuo.KyyAppUITest.Play" />  <!--播放-->  
+       </classes>  
+    </test>
+    
+    <test name="Fighting" preserve-order="true">      <!--评测-->
+       <classes>
+          <class name="feishuo.KyyAppUITest.Fighting" />  <!--评测-->  
+       </classes>  
+    </test>
+    
+    <test name="Me" preserve-order="true">      <!--我的-->
+       <classes>
+          <class name="feishuo.KyyAppUITest.Me" />  <!--我的--> 
+          <class name="feishuo.KyyAppUITest.Prize" />  <!--奖品中心-->  
+          <class name="feishuo.KyyAppUITest.Set" />  <!--设置-->   
+       </classes>  
+    </test>
+        
+</suite>

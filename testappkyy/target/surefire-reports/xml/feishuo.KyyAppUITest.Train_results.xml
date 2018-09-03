@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="HomePage"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="128.086">
+  <properties />
+  
+  
+            <testcase name="testTrainText" time="43.027" classname="feishuo.KyyAppUITest.Train" />
+                <testcase name="testChange" time="22.250" classname="feishuo.KyyAppUITest.Train" />
+                <testcase name="testChoose" time="14.522" classname="feishuo.KyyAppUITest.Train" />
+                <testcase name="testTrainWord" time="48.287" classname="feishuo.KyyAppUITest.Train" />
+      
+</testsuite>

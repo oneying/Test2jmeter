@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [AndroidSuite]">
+  <test name="HomePage(failed)">
+    <classes>
+      <class name="feishuo.KyyAppUITest.HomePage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testItemBottom"/>
+          <include name="testItemMiddle"/>
+          <include name="testPast"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- feishuo.KyyAppUITest.HomePage -->
+      <class name="feishuo.KyyAppUITest.Topic">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testChange"/>
+          <include name="testChoose"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- feishuo.KyyAppUITest.Topic -->
+      <class name="feishuo.KyyAppUITest.Train">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testTrainText"/>
+          <include name="testTrainWord"/>
+          <include name="setUp"/>
+          <include name="testChoose"/>
+          <include name="testChange"/>
+        </methods>
+      </class> <!-- feishuo.KyyAppUITest.Train -->
+      <class name="feishuo.KyyAppUITest.Cartoon">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testCartoon"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- feishuo.KyyAppUITest.Cartoon -->
+      <class name="feishuo.KyyAppUITest.Exercise">
+        <methods>
+          <include name="testListen"/>
+          <include name="testSpecial"/>
+          <include name="testChoose"/>
+          <include name="testWrite"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- feishuo.KyyAppUITest.Exercise -->
+    </classes>
+  </test> <!-- HomePage(failed) -->
+  <test name="Play(failed)">
+    <classes>
+      <class name="feishuo.KyyAppUITest.Play">
+        <methods>
+          <include name="testList"/>
+          <include name="testStatu"/>
+          <include name="tearDown"/>
+          <include name="testPlay"/>
+          <include name="testChange"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- feishuo.KyyAppUITest.Play -->
+    </classes>
+  </test> <!-- Play(failed) -->
+  <test name="Fighting(failed)">
+    <classes>
+      <class name="feishuo.KyyAppUITest.Fighting">
+        <methods>
+          <include name="testPlay"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- feishuo.KyyAppUITest.Fighting -->
+    </classes>
+  </test> <!-- Fighting(failed) -->
+  <test name="Me(failed)">
+    <classes>
+      <class name="feishuo.KyyAppUITest.Prize">
+        <methods>
+          <include name="testMore"/>
+          <include name="testBuy"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- feishuo.KyyAppUITest.Prize -->
+      <class name="feishuo.KyyAppUITest.Set">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testProblem"/>
+          <include name="testWelcome"/>
+          <include name="setUp"/>
+          <include name="testAbout"/>
+          <include name="testExitLogin"/>
+          <include name="testChange"/>
+          <include name="testClear"/>
+        </methods>
+      </class> <!-- feishuo.KyyAppUITest.Set -->
+      <class name="feishuo.KyyAppUITest.Me">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="testScore"/>
+          <include name="testSet"/>
+          <include name="testPrize"/>
+          <include name="testBuy"/>
+          <include name="testInformation"/>
+        </methods>
+      </class> <!-- feishuo.KyyAppUITest.Me -->
+    </classes>
+  </test> <!-- Me(failed) -->
+</suite> <!-- Failed suite [AndroidSuite] -->

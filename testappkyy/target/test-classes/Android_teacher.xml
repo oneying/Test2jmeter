@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="AndroidSuite">  <!--口语易：安卓-->
+
+    <test name="TeachertLogin" preserve-order="true">      <!--教师登录-->
+       <classes>
+          <class name="feishuo.KyyAppUITest.LoginTeacher" />  <!--教师登录-->  
+       </classes>  
+    </test>
+
+    <test name="SetHomework" preserve-order="true">      <!--布置作业-->
+       <classes>
+          <class name="feishuo.KyyAppUITest.SetHomework" />  <!--布置作业-->  
+       </classes>  
+    </test>
+    
+    <test name="Link" preserve-order="true">      <!--首页链接-->
+       <classes>
+          <class name="feishuo.KyyAppUITest.Link" />  <!--链接-->  
+       </classes>  
+    </test>
+</suite>

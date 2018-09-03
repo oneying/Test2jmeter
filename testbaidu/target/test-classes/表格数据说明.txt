@@ -1,0 +1,6 @@
+1.《teacherlogin》
+teacherok：此表放正确的教师账号和正确的密码
+teacherfail01：此表放正确的教师账号和错误的密码
+teacherfail02：此表放不存在的教师账号和存在的密码
+teacherfail04：此表放正确的教师账号和空密码
+teacherfail05：此表放空的教师账号和密码

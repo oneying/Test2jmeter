@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Me"
+           tests="6"
+           failures="0"
+           errors="0"
+           skipped="1"
+           time="81.552">
+  <properties />
+  
+            <testcase name="testChange" time="0.0" classname="feishuo.KyyAppUITest.Set">
+          <skipped />
+    </testcase>
+  
+            <testcase name="testAbout" time="1.751" classname="feishuo.KyyAppUITest.Set" />
+                <testcase name="testProblem" time="2.038" classname="feishuo.KyyAppUITest.Set" />
+                <testcase name="testExitLogin" time="35.596" classname="feishuo.KyyAppUITest.Set" />
+                <testcase name="testClear" time="7.997" classname="feishuo.KyyAppUITest.Set" />
+                <testcase name="testWelcome" time="1.512" classname="feishuo.KyyAppUITest.Set" />
+      
+</testsuite>

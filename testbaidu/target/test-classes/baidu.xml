@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Baidu" verbose="1"  >
+
+  <test name="baidu" preserve-order="true"><!-- preserve-order="true"：test下的class按顺序执行 -->
+    <classes>
+      <class name="feishuo.BaiduWebUITest.baidu" />
+    </classes>
+  </test>
+
+</suite>

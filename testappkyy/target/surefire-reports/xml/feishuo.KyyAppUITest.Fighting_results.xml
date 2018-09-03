@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Fighting"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="32.002">
+  <properties />
+  
+  
+            <testcase name="testPlay" time="32.002" classname="feishuo.KyyAppUITest.Fighting" />
+      
+</testsuite>

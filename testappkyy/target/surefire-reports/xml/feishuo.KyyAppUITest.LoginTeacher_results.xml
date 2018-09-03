@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TeachertLogin"
+           tests="15"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="402.241">
+  <properties />
+  
+  
+            <testcase name="testLogin_fail02" time="29.039" classname="feishuo.KyyAppUITest.LoginTeacher" />
+                <testcase name="testLogin_fail04" time="26.965" classname="feishuo.KyyAppUITest.LoginTeacher" />
+                <testcase name="testLogin_fail05" time="27.449" classname="feishuo.KyyAppUITest.LoginTeacher" />
+                <testcase name="LoginSuccess_Teacher" time="27.107" classname="feishuo.KyyAppUITest.LoginTeacher" />
+                <testcase name="testLogin_fail04" time="27.494" classname="feishuo.KyyAppUITest.LoginTeacher" />
+                <testcase name="testLogin_fail02" time="25.252" classname="feishuo.KyyAppUITest.LoginTeacher" />
+                <testcase name="testLogin_fail05" time="27.915" classname="feishuo.KyyAppUITest.LoginTeacher" />
+                <testcase name="LoginSuccess_Teacher" time="26.530" classname="feishuo.KyyAppUITest.LoginTeacher" />
+                <testcase name="testLogin_fail04" time="27.530" classname="feishuo.KyyAppUITest.LoginTeacher" />
+                <testcase name="testLogin_fail01" time="24.863" classname="feishuo.KyyAppUITest.LoginTeacher" />
+                <testcase name="testLogin_fail05" time="26.875" classname="feishuo.KyyAppUITest.LoginTeacher" />
+                <testcase name="testLogin_fail01" time="25.261" classname="feishuo.KyyAppUITest.LoginTeacher" />
+                <testcase name="testLogin_fail01" time="28.078" classname="feishuo.KyyAppUITest.LoginTeacher" />
+                <testcase name="testLogin_fail02" time="25.283" classname="feishuo.KyyAppUITest.LoginTeacher" />
+                <testcase name="LoginSuccess_Teacher" time="26.600" classname="feishuo.KyyAppUITest.LoginTeacher" />
+      
+</testsuite>

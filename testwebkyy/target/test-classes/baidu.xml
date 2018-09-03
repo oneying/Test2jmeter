@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Baidu" verbose="1" >
+    <!--parameter name="browser" value="chrome" /-->   <!--谷歌 -->
+    <!--parameter name="browser" value="firefox" /-->   <!--火狐 -->
+    <!--parameter name="browser" value="ie" /-->   <!--IE -->
+
+  <test name="baidu" >
+    <classes>
+      <class name="feishuo.KyyWebUITest.baidu" />
+     
+    </classes>
+  </test>
+
+</suite>

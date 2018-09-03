@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Play"
+           tests="7"
+           failures="0"
+           errors="0"
+           skipped="3"
+           time="397.340">
+  <properties />
+  
+            <testcase name="testPlay" time="0.0" classname="feishuo.KyyAppUITest.Play">
+          <skipped />
+    </testcase>
+            <testcase name="testChange" time="0.0" classname="feishuo.KyyAppUITest.Play">
+          <skipped />
+    </testcase>
+            <testcase name="testStatu" time="0.0" classname="feishuo.KyyAppUITest.Play">
+          <skipped />
+    </testcase>
+  
+            <testcase name="testPlay" time="35.879" classname="feishuo.KyyAppUITest.Play" />
+                <testcase name="testStatu" time="36.916" classname="feishuo.KyyAppUITest.Play" />
+                <testcase name="testChange" time="42.719" classname="feishuo.KyyAppUITest.Play" />
+                <testcase name="testList" time="185.043" classname="feishuo.KyyAppUITest.Play" />
+      
+</testsuite>

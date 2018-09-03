@@ -1,0 +1,145 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>feishuo</groupId>
+  <artifactId>BaiduWebUITest</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>BaiduWebUITest</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+   <build>
+   <plugins>
+   
+    <plugin><!-- 使用jdk1.8 -->
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.6.1</version>
+        <configuration>
+            <source>1.8</source>
+            <target>1.8</target>
+            <encoding>${project.build.sourceEncoding}</encoding>
+            <compilerArguments>
+                <verbose />
+                <bootclasspath>${java.home}/lib/rt.jar;${java.home}/lib/jce.jar</bootclasspath>
+            </compilerArguments>
+            <compilerArguments><!-- 把本地的lib加入maven编译时的依赖路径 -->
+              <extdirs>lib/</extdirs>
+            </compilerArguments>
+        </configuration>
+    </plugin>
+            
+       <plugin><!--用于运行目录下的测试xml  -->
+       <groupId>org.apache.maven.plugins</groupId>
+       <artifactId>maven-surefire-plugin</artifactId>
+       <version>2.20</version>
+        <configuration>
+           <suiteXmlFiles>
+            <suiteXmlFile>src\test\java\baidu.xml</suiteXmlFile> <!-- 用百度测试各部分是否连通 -->
+           </suiteXmlFiles>
+		   <properties>
+              <property>
+                  <name>usedefaultlisteners</name><!-- 使用ReportNG生成报告 -->
+                  <value>false</value>
+              </property>
+              <property>
+                  <name>listener</name><!-- 使用ReportNG生成报告 -->
+                  <value>org.uncommons.reportng.HTMLReporter, org.uncommons.reportng.JUnitXMLReporter</value>
+              </property>
+         </properties>
+        </configuration>
+      </plugin> 
+
+    </plugins>
+    
+    </build>
+    
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+    
+ <!-- https://mvnrepository.com/artifact/org.testng/testng --> <!-- testNG测试框架 -->
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>6.11</version>
+    <scope>test</scope>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.uncommons/reportng --><!-- 使用ReportNG生成报告 -->
+<dependency>
+    <groupId>org.uncommons</groupId>
+    <artifactId>reportng</artifactId>
+    <!--<version>1.1.4</version>-->
+    <!--scope>test</scope-->
+    <version>1.1.5</version>
+    <scope>system</scope>
+    <systemPath>${project.basedir}/lib/reportng-1.1.5.jar</systemPath><!-- 1.1.5能正常显示中文，加入饼图 -->
+</dependency>
+
+<dependency>
+      <groupId>velocity</groupId><!--ReportNG  -->
+      <artifactId>velocity</artifactId>
+      <version>1.4</version>
+      <scope>system</scope>
+    <systemPath>${project.basedir}/lib/velocity-dep-1.4.jar</systemPath>
+    </dependency>
+
+<dependency><!-- 使用ReportNG生成报告 -->
+    <groupId>com.google.inject</groupId>
+    <artifactId>guice</artifactId>
+    <version>3.0</version>
+    <scope>test</scope>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java --> <!-- selenium用于UI测试 -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>3.4.0</version>
+</dependency>  
+    
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-server --><!-- selenium-->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-server</artifactId>
+    <version>3.4.0</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/jexcelapi/jxl --> <!-- 用于读取excel -->
+<dependency>
+    <groupId>jexcelapi</groupId>
+    <artifactId>jxl</artifactId>
+    <version>2.6</version>
+</dependency>
+
+<dependency>
+      <groupId>arrow</groupId><!--失败用例自动重跑  -->
+      <artifactId>arrow</artifactId>
+      <version>0.1.0</version>
+      <scope>system</scope>
+    <systemPath>${project.basedir}/lib/arrow-0.1.0.jar</systemPath>
+    </dependency>
+ 
+<!-- 输出日志log -->
+<!-- https://mvnrepository.com/artifact/log4j/log4j -->
+<dependency>
+    <groupId>log4j</groupId>
+    <artifactId>log4j</artifactId>
+    <version>1.2.17</version>
+</dependency>
+
+
+</dependencies>
+
+</project>

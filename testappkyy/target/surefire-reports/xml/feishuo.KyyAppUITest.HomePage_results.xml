@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="HomePage"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="32.273">
+  <properties />
+  
+  
+            <testcase name="testItemMiddle" time="9.767" classname="feishuo.KyyAppUITest.HomePage" />
+                <testcase name="testItemBottom" time="7.111" classname="feishuo.KyyAppUITest.HomePage" />
+                <testcase name="testPast" time="15.395" classname="feishuo.KyyAppUITest.HomePage" />
+      
+</testsuite>

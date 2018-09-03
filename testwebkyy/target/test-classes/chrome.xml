@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="WebSuite">  <!--官网web-->
+
+<parameter name="browser" value="chrome" />   <!--谷歌 -->
+
+    <test name="TeacherLogin" preserve-order="true">      <!--教师web版登录-->
+       <classes>
+          <class name="feishuo.KyyWebUITest.LoginTeacher" />  <!--教师登录-->  
+       </classes>  
+    </test> 
+       
+    <test name="Homework" preserve-order="true">      <!--作业管理-->
+       <classes>
+          <class name="feishuo.KyyWebUITest.HomeworkSet_chrome" />  <!--布置作业--> 
+          <class name="feishuo.KyyWebUITest.HomeworkSee_chrome" />  <!--作业列表--> 
+          <class name="feishuo.KyyWebUITest.HomeworkHistory_chrome" />  <!--历史作业-->         
+       </classes>  
+    </test> 
+       
+    <test name="Exam" preserve-order="true">      <!--考试管理-->
+       <classes>
+          <class name="feishuo.KyyWebUITest.ExamSee" />  <!--考试列表-->
+          <class name="feishuo.KyyWebUITest.ExamSet_chrome" />  <!--创建考试-->
+       </classes>
+    </test>
+
+    <test name="LessonShow" preserve-order="true">      <!--课前秀-->
+       <classes>
+          <!--class name="feishuo.KyyWebUITest.lessonBeforeShow_chrome" /-->  <!--课前秀--><!-- 课前秀选书本的页面点击不到‘确定’按钮，先不测试 -->  
+       </classes>  
+    </test> 
+
+    <test name="StudentTrain" preserve-order="true">      <!--训练情况-->
+       <classes>
+          <class name="feishuo.KyyWebUITest.Train" />  <!--训练情况-->  
+       </classes>  
+    </test>
+    
+    <test name="Class" preserve-order="true">      <!--班级管理-->
+       <classes>
+          <class name="feishuo.KyyWebUITest.MyClass" />  <!--班级管理-->  
+       </classes>  
+    </test>
+    
+    <test name="3A" preserve-order="true">      <!--3A课堂（已登录教师账号）-->
+       <classes>
+          <class name="feishuo.KyyWebUITest.Class3Aintroduce_chrome" />  <!--3A介绍--> 
+          <class name="feishuo.KyyWebUITest.Class3Aupload" />  <!--资源上传-->  
+       </classes>  
+    </test>
+   
+    <test name="Activity" preserve-order="true">      <!--活动中心-->
+       <classes>
+          <class name="feishuo.KyyWebUITest.Activity" />  <!--活动中心-->  
+       </classes>  
+    </test> 
+    
+    <test name="3Aketang" preserve-order="true">      <!--3A课堂（未登录教师账号）-->
+       <classes>
+          <class name="feishuo.KyyWebUITest.Class3A" />  <!--3A课堂-->  
+       </classes>  
+    </test>
+    
+    <test name="Parent" preserve-order="true">      <!--家长频道-->
+       <classes>
+          <class name="feishuo.KyyWebUITest.Parents" />  <!--家长频道-->  
+       </classes>  
+    </test>
+    
+    <test name="DownloadCenter" preserve-order="true">      <!--下载中心-->
+       <classes>
+          <class name="feishuo.KyyWebUITest.Download" />  <!--下载中心-->  
+       </classes>  
+    </test>
+    
+    <test name="ServiceCenter" preserve-order="true">      <!--关于我们-->
+       <classes>
+          <!--class name="feishuo.KyyWebUITest.Service" /-->  <!--客服中心--> <!--  用js把隐藏的列表显示出来 ，但chrome不行-->
+       </classes>  
+    </test>
+    
+    <test name="HomePage" preserve-order="true">      <!--首页-->
+       <classes>
+          <class name="feishuo.KyyWebUITest.HomePage" />  <!--首页-->  
+       </classes>  
+    </test>
+    
+</suite>

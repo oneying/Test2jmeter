@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 43.427 s <<< FAILURE! - in TestSuite
+testfirefox(feishuo.BaiduWebUITest.baidu)  Time elapsed: 14.628 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: #w
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-8ECR7HO', ip: '192.168.1.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\admin\AppData\Local\Temp\rust_mozprofile.iQMTEd8D7Wgv, rotatable=false, timeouts={implicit=0.0, page load=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=52.0, platformVersion=10.0, moz:processID=9696.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 248f721c-e65d-4e2d-a5de-1787039a2607
+*** Element info: {Using=id, value=w}
+	at feishuo.BaiduWebUITest.baidu.testfirefox(baidu.java:35)
+

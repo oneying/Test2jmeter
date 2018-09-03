@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Link"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="12.191">
+  <properties />
+  
+  
+            <testcase name="testCheckTrain" time="1.666" classname="feishuo.KyyAppUITest.Link" />
+                <testcase name="testCheckHw1" time="8.821" classname="feishuo.KyyAppUITest.Link" />
+                <testcase name="testCheckHw2" time="1.704" classname="feishuo.KyyAppUITest.Link" />
+      
+</testsuite>

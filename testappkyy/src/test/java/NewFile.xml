@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite000">  <!--口语易：安卓-->
+
+    <test name="test000" preserve-order="true">      <!--xxx-->
+       <classes>
+          <class name="feishuo.KyyAppUITest.Train" />  <!--xxx-->  
+       </classes>  
+    </test>
+    
+</suite>

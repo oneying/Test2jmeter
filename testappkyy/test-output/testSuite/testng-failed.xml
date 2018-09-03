@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [testSuite]">
+  <listeners>
+    <listener class-name="com.netease.qa.testng.TestResultListener"/>
+    <listener class-name="com.netease.qa.testng.RetryListener"/>
+    <listener class-name="com.netease.qa.testng.PowerEmailableReporter"/>
+  </listeners>
+  <test name="calculator(failed)">
+    <classes>
+      <class name="feishuo.KyyAppUITest.Calculator">
+        <methods>
+          <include name="testCalculator"/>
+        </methods>
+      </class> <!-- feishuo.KyyAppUITest.Calculator -->
+    </classes>
+  </test> <!-- calculator(failed) -->
+</suite> <!-- Failed suite [testSuite] -->

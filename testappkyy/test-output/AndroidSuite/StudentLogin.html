@@ -1,0 +1,155 @@
+<html>
+<head>
+<title>TestNG:  StudentLogin</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>StudentLogin</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Nov 27 17:33:08 CST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>156 seconds (156265 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='feishuo.KyyAppUITest.LoginStudent.testLogin_OK()'><b>testLogin_OK</b><br>Test class: feishuo.KyyAppUITest.LoginStudent<br>Parameters: {thPassid=888888, thUserid=mzls01}<br/>
+<a href="#Output-1003292107" onClick='toggleBox("Output-1003292107", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1003292107" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1003292107">
+角色选择学生<br/>
+输入正确的账号和正确的密码<br/>
+按返回键，取消更新提示框<br/>
+按返回键，取消订购提示框<br/>
+进入首页<br/>
+我的<br/>
+按返回键，取消修改密码提示框<br/>
+设置<br/>
+退出登录<br/>
+</div>
+</td>
+<td></td>
+<td>40</td>
+<td>feishuo.KyyAppUITest.LoginStudent@5f2108b5</td></tr>
+<tr>
+<td title='feishuo.KyyAppUITest.LoginStudent.testLogin_fail01()'><b>testLogin_fail01</b><br>Test class: feishuo.KyyAppUITest.LoginStudent<br>Parameters: {thPassid=111111, thUserid=mmtest06}<br/>
+<a href="#Output-1042306518" onClick='toggleBox("Output-1042306518", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1042306518" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1042306518">
+角色选择学生<br/>
+输入正确的学生账号和错误的密码<br/>
+判断能否登录<br/>
+</div>
+</td>
+<td></td>
+<td>25</td>
+<td>feishuo.KyyAppUITest.LoginStudent@5f2108b5</td></tr>
+<tr>
+<td title='feishuo.KyyAppUITest.LoginStudent.testLogin_fail02()'><b>testLogin_fail02</b><br>Test class: feishuo.KyyAppUITest.LoginStudent<br>Parameters: {thPassid=888888, thUserid=SeaCher}<br/>
+<a href="#Output-1824837049" onClick='toggleBox("Output-1824837049", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1824837049" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1824837049">
+角色选择学生<br/>
+不存在的学生账号和存在的密码<br/>
+判断能否登录<br/>
+</div>
+</td>
+<td></td>
+<td>25</td>
+<td>feishuo.KyyAppUITest.LoginStudent@5f2108b5</td></tr>
+<tr>
+<td title='feishuo.KyyAppUITest.LoginStudent.testLogin_fail04()'><b>testLogin_fail04</b><br>Test class: feishuo.KyyAppUITest.LoginStudent<br>Parameters: {thPassid=, thUserid=mmtest06}<br/>
+<a href="#Output-1807015220" onClick='toggleBox("Output-1807015220", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1807015220" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1807015220">
+角色选择学生<br/>
+存在的学生账号和空的密码<br/>
+判断能否登录<br/>
+</div>
+</td>
+<td></td>
+<td>28</td>
+<td>feishuo.KyyAppUITest.LoginStudent@5f2108b5</td></tr>
+<tr>
+<td title='feishuo.KyyAppUITest.LoginStudent.testLogin_fail05()'><b>testLogin_fail05</b><br>Test class: feishuo.KyyAppUITest.LoginStudent<br>Parameters: {thPassid=888888, thUserid=SeaCher}<br/>
+<a href="#Output-1267149311" onClick='toggleBox("Output-1267149311", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1267149311" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1267149311">
+角色选择学生<br/>
+空的学生账号和密码<br/>
+判断能否登录<br/>
+</div>
+</td>
+<td></td>
+<td>22</td>
+<td>feishuo.KyyAppUITest.LoginStudent@5f2108b5</td></tr>
+</table><p>
+</body>
+</html>

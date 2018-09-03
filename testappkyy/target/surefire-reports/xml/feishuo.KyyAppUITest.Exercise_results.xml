@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="HomePage"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="465.510">
+  <properties />
+  
+  
+            <testcase name="testSpecial" time="210.717" classname="feishuo.KyyAppUITest.Exercise" />
+                <testcase name="testChoose" time="22.534" classname="feishuo.KyyAppUITest.Exercise" />
+                <testcase name="testWrite" time="210.550" classname="feishuo.KyyAppUITest.Exercise" />
+                <testcase name="testListen" time="21.709" classname="feishuo.KyyAppUITest.Exercise" />
+      
+</testsuite>

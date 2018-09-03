@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Baidu]">
+  <listeners>
+    <listener class-name="com.netease.qa.testng.TestResultListener"/>
+    <listener class-name="com.netease.qa.testng.RetryListener"/>
+    <listener class-name="com.netease.qa.testng.PowerEmailableReporter"/>
+  </listeners>
+  <test name="baidu(failed)">
+    <classes>
+      <class name="feishuo.BaiduWebUITest.baidu">
+        <methods>
+          <include name="testKyyPC"/>
+        </methods>
+      </class> <!-- feishuo.BaiduWebUITest.baidu -->
+    </classes>
+  </test> <!-- baidu(failed) -->
+</suite> <!-- Failed suite [Baidu] -->

@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="106" it="0" lt="74" ct="0" ts="1534925702952" s="true" lb="官网" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="14380" sby="0" ng="1" na="1"/>
+<httpSample t="43" it="0" lt="43" ct="0" ts="1534925703070" s="true" lb="教师频道" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="9744" sby="0" ng="1" na="1"/>
+<httpSample t="3107" it="0" lt="43" ct="0" ts="1534925703114" s="true" lb="教师登录" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="879639" sby="0" ng="1" na="1">
+  <httpSample t="43" it="0" lt="43" ct="0" ts="1534925703114" s="true" lb="http://www.kouyuyi.com/user.do" rc="302" rm="Found" tn="Thread Group 1-1" dt="text" by="341" sby="0" ng="1" na="1"/>
+  <httpSample t="3063" it="0" lt="2132" ct="0" ts="1534925703158" s="true" lb="http://www.kouyuyi.com/task.do?action=tlist" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="879298" sby="0" ng="1" na="1"/>
+</httpSample>
+<httpSample t="235" it="0" lt="113" ct="0" ts="1534925706225" s="true" lb="学生列表" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="23792" sby="0" ng="1" na="1"/>
+<httpSample t="168" it="0" lt="109" ct="0" ts="1534925706477" s="true" lb="班级，开通" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="21295" sby="0" ng="1" na="1"/>
+<httpSample t="175" it="0" lt="116" ct="0" ts="1534925706647" s="true" lb="班级，未开通" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="23790" sby="0" ng="1" na="1"/>
+<httpSample t="188" it="0" lt="121" ct="0" ts="1534925706824" s="true" lb="班级，不限" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="23792" sby="0" ng="1" na="1"/>
+<httpSample t="142" it="0" lt="111" ct="0" ts="1534925707014" s="true" lb="班级，不限，学生名" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="21306" sby="0" ng="1" na="1"/>
+<httpSample t="148" it="0" lt="118" ct="0" ts="1534925707158" s="true" lb="班级，开通，学生名" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="20724" sby="0" ng="1" na="1"/>
+<httpSample t="151" it="0" lt="121" ct="0" ts="1534925707309" s="true" lb="班级，未开通，学生名" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="21306" sby="0" ng="1" na="1"/>
+
+<httpSample t="156" it="0" lt="105" ct="0" ts="1534925709224" s="true" lb="38官网" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="14580" sby="0" ng="1" na="1"/>
+<httpSample t="84" it="0" lt="64" ct="0" ts="1534925709401" s="true" lb="38教师频道" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="9640" sby="0" ng="1" na="1"/>
+<httpSample t="3453" it="0" lt="67" ct="0" ts="1534925709498" s="true" lb="38教师登录" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="422031" sby="0" ng="1" na="1">
+  <httpSample t="67" it="0" lt="67" ct="0" ts="1534925709498" s="true" lb="http://112.124.117.38/user.do" rc="302" rm="Found" tn="Thread Group 1-1" dt="text" by="259" sby="0" ng="1" na="1"/>
+  <httpSample t="3384" it="0" lt="292" ct="0" ts="1534925709567" s="true" lb="http://112.124.117.38/task.do?action=tlist" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="421772" sby="0" ng="1" na="1"/>
+</httpSample>
+<httpSample t="927" it="0" lt="56" ct="0" ts="1534925712954" s="true" lb="布置作业" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="121794" sby="0" ng="1" na="1"/>
+<httpSample t="188" it="0" lt="72" ct="0" ts="1534925713909" s="true" lb="添加卡通配音作业1-3年级" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="21908" sby="0" ng="1" na="1"/>
+<httpSample t="257" it="0" lt="68" ct="0" ts="1534925714100" s="true" lb="卡通配音作业4-6年级" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="32324" sby="0" ng="1" na="1"/>
+<httpSample t="194" it="0" lt="68" ct="0" ts="1534925714358" s="true" lb="卡通配音作业初中年级" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="23475" sby="0" ng="1" na="1"/>
+<httpSample t="131" it="0" lt="68" ct="0" ts="1534925714554" s="true" lb="卡通配音作业高中年级" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="15760" sby="0" ng="1" na="1"/>
+<httpSample t="82" it="0" lt="82" ct="0" ts="1534925714686" s="true" lb="选择卡通素材" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="757" sby="0" ng="1" na="1"/>
+<httpSample t="34" it="0" lt="34" ct="0" ts="1534925714769" s="true" lb="作业要求" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="149" sby="0" ng="1" na="1"/>
+<httpSample t="87" it="0" lt="87" ct="0" ts="1534925714804" s="true" lb="发布作业" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="625" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+
+<httpSample t="180" it="0" lt="148" ct="0" ts="1534925716665" s="true" lb="作业列表（安徽教师账号sessionkey）" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="16122" sby="0" ng="1" na="1"/>
+<httpSample t="141" it="0" lt="46" ct="0" ts="1534925716871" s="true" lb="布置作业" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="106576" sby="0" ng="1" na="1"/>
+<httpSample t="42" it="0" lt="41" ct="0" ts="1534925717038" s="true" lb="卡通配音1-3年级" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="22012" sby="0" ng="1" na="1"/>
+<httpSample t="52" it="0" lt="50" ct="0" ts="1534925717082" s="true" lb="卡通配音4-6年级" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="32155" sby="0" ng="1" na="1"/>
+<httpSample t="43" it="0" lt="42" ct="0" ts="1534925717136" s="true" lb="卡通配音初中年级" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="23579" sby="0" ng="1" na="1"/>
+<httpSample t="41" it="0" lt="41" ct="0" ts="1534925717181" s="true" lb="卡通配音高中年级" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="20180" sby="0" ng="1" na="1"/>
+<httpSample t="74" it="0" lt="74" ct="0" ts="1534925717224" s="true" lb="选择卡通" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="889" sby="0" ng="1" na="1"/>
+<httpSample t="43" it="0" lt="43" ct="0" ts="1534925717300" s="true" lb="作业要求" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="230" sby="0" ng="1" na="1"/>
+<httpSample t="62" it="0" lt="62" ct="0" ts="1534925717345" s="true" lb="发布卡通配音作业" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="764" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+
+<httpSample t="155" it="0" lt="104" ct="0" ts="1534925719161" s="true" lb="38官网" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="14580" sby="0" ng="1" na="1"/>
+<httpSample t="83" it="0" lt="62" ct="0" ts="1534925719339" s="true" lb="38教师频道" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="9640" sby="0" ng="1" na="1"/>
+<httpSample t="257" it="0" lt="205" ct="0" ts="1534925719439" s="true" lb="38教师登录" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="14580" sby="0" ng="1" na="1"/>
+<httpSample t="918" it="0" lt="54" ct="0" ts="1534925719698" s="true" lb="布置作业" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="121794" sby="0" ng="1" na="1"/>
+<httpSample t="562" it="0" lt="67" ct="0" ts="1534925720643" s="true" lb="初中" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="75413" sby="0" ng="1" na="1"/>
+<httpSample t="55" it="0" lt="55" ct="0" ts="1534925721207" s="true" lb="查看试题1135" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="4512" sby="0" ng="1" na="1"/>
+<httpSample t="1866" it="0" lt="77" ct="0" ts="1534925721264" s="true" lb="高中" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="254625" sby="0" ng="1" na="1"/>
+<httpSample t="34" it="0" lt="34" ct="0" ts="1534925723130" s="true" lb="查看试题1486" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="460" sby="0" ng="1" na="1"/>
+<httpSample t="68" it="0" lt="68" ct="0" ts="1534925723165" s="true" lb="选择试题素材" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="673" sby="0" ng="1" na="1"/>
+<httpSample t="29" it="0" lt="29" ct="0" ts="1534925723234" s="true" lb="作业要求" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="149" sby="0" ng="1" na="1"/>
+<httpSample t="77" it="0" lt="77" ct="0" ts="1534925723264" s="true" lb="发布作业" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="625" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+
+<httpSample t="101" it="0" lt="75" ct="0" ts="1534925725146" s="true" lb="官网" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="14380" sby="0" ng="1" na="1"/>
+<httpSample t="51" it="0" lt="50" ct="0" ts="1534925725277" s="true" lb="教师频道" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="9744" sby="0" ng="1" na="1"/>
+<httpSample t="2751" it="0" lt="50" ct="0" ts="1534925725328" s="true" lb="教师登录" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="879639" sby="0" ng="1" na="1">
+  <httpSample t="50" it="0" lt="50" ct="0" ts="1534925725328" s="true" lb="http://www.kouyuyi.com/user.do" rc="302" rm="Found" tn="Thread Group 1-1" dt="text" by="341" sby="0" ng="1" na="1"/>
+  <httpSample t="2697" it="0" lt="2033" ct="0" ts="1534925725382" s="true" lb="http://www.kouyuyi.com/task.do?action=tlist" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="879298" sby="0" ng="1" na="1"/>
+</httpSample>
+<httpSample t="116" it="0" lt="32" ct="0" ts="1534925728081" s="true" lb="课前秀" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="14596" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="127" it="0" lt="100" ct="0" ts="1534925728217" s="true" lb="课本列表" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="23173" sby="0" ng="1" na="1"/>
+<httpSample t="33" it="0" lt="33" ct="0" ts="1534925728357" s="true" lb="选择课本" rc="200" rm="OK" tn="Thread Group 1-1" dt="bin" by="210" sby="0" ng="1" na="1"/>
+<httpSample t="48" it="0" lt="48" ct="0" ts="1534925728391" s="true" lb="单元列表" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="2370" sby="0" ng="1" na="1"/>
+<httpSample t="39" it="0" lt="39" ct="0" ts="1534925728442" s="true" lb="单元下的素材" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="2269" sby="0" ng="1" na="1"/>
+
+<httpSample t="95" it="0" lt="71" ct="0" ts="1534925730394" s="true" lb="官网" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="14380" sby="0" ng="1" na="1"/>
+<httpSample t="45" it="0" lt="45" ct="0" ts="1534925730524" s="true" lb="家长频道" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="9502" sby="0" ng="1" na="1"/>
+<httpSample t="29" it="0" lt="29" ct="0" ts="1534925730570" s="true" lb="3A课堂" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="5207" sby="0" ng="1" na="1"/>
+<httpSample t="29" it="0" lt="29" ct="0" ts="1534925730600" s="true" lb="3A课堂-结果公布" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="3854" sby="0" ng="1" na="1"/>
+<httpSample t="31" it="0" lt="31" ct="0" ts="1534925730632" s="true" lb="3A课堂-活动发文" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="4297" sby="0" ng="1" na="1"/>
+<httpSample t="190" it="0" lt="190" ct="0" ts="1534925730666" s="true" lb="3A课堂-资源上传" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="4708" sby="0" ng="1" na="1"/>
+<httpSample t="33" it="0" lt="33" ct="0" ts="1534925730857" s="true" lb="活动中心" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="9086" sby="0" ng="1" na="1"/>
+<httpSample t="31" it="0" lt="31" ct="0" ts="1534925730892" s="true" lb="关于我们" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="5147" sby="0" ng="1" na="1"/>
+
+<httpSample t="103" it="0" lt="75" ct="0" ts="1534925732712" s="true" lb="官网" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="14380" sby="0" ng="1" na="1"/>
+<httpSample t="49" it="0" lt="49" ct="0" ts="1534925732843" s="true" lb="教师频道" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="9744" sby="0" ng="1" na="1"/>
+<httpSample t="3004" it="0" lt="46" ct="0" ts="1534925732893" s="true" lb="教师登录" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="879639" sby="0" ng="1" na="1">
+  <httpSample t="46" it="0" lt="46" ct="0" ts="1534925732893" s="true" lb="http://www.kouyuyi.com/user.do" rc="302" rm="Found" tn="Thread Group 1-1" dt="text" by="341" sby="0" ng="1" na="1"/>
+  <httpSample t="2955" it="0" lt="2203" ct="0" ts="1534925732942" s="true" lb="http://www.kouyuyi.com/task.do?action=tlist" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="879298" sby="0" ng="1" na="1"/>
+</httpSample>
+<httpSample t="134" it="0" lt="40" ct="0" ts="1534925735901" s="true" lb="资源上传" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="26777" sby="0" ng="1" na="1"/>
+<httpSample t="41" it="0" lt="41" ct="0" ts="1534925736038" s="true" lb="选择文件" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="7618" sby="0" ng="1" na="1"/>
+<httpSample t="36" it="0" lt="35" ct="0" ts="1534925736081" s="true" lb="检查文本-区县" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="230" sby="0" ng="1" na="1"/>
+<httpSample t="44" it="0" lt="44" ct="0" ts="1534925736118" s="true" lb="检查文本-学校" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="230" sby="0" ng="1" na="1"/>
+<httpSample t="44" it="0" lt="44" ct="0" ts="1534925736164" s="true" lb="检查文本-作者姓名" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="230" sby="0" ng="1" na="1"/>
+<httpSample t="35" it="0" lt="35" ct="0" ts="1534925736210" s="true" lb="检查文本-联系手机" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="230" sby="0" ng="1" na="1"/>
+<httpSample t="37" it="0" lt="37" ct="0" ts="1534925736247" s="true" lb="检查文本-资源内容相关" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="230" sby="0" ng="1" na="1"/>
+<httpSample t="34" it="0" lt="34" ct="0" ts="1534925736284" s="true" lb="检查文本-资源名称" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="230" sby="0" ng="1" na="1"/>
+<httpSample t="82" it="0" lt="44" ct="0" ts="1534925736319" s="true" lb="上传提交" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="15896" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+
+<httpSample t="110" it="0" lt="83" ct="0" ts="1534925738216" s="true" lb="官网" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="14380" sby="0" ng="1" na="1"/>
+<httpSample t="50" it="0" lt="50" ct="0" ts="1534925738357" s="true" lb="下载中心" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="5688" sby="0" ng="1" na="1"/>
+<httpSample t="43209" it="0" lt="221" ct="0" ts="1534925738408" s="true" lb="点击‘学生PC端’" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="87531810" sby="0" ng="1" na="1"/>
+<httpSample t="18669" it="0" lt="117" ct="0" ts="1534925781619" s="true" lb="点击‘安卓版’" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="40308701" sby="0" ng="1" na="1"/>
+<httpSample t="28635" it="0" lt="186" ct="0" ts="1534925800288" s="true" lb="点击‘教师PC端’" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="55914220" sby="0" ng="1" na="1"/>
+<httpSample t="2693" it="0" lt="164" ct="0" ts="1534925828924" s="true" lb="安装说明视频" rc="200" rm="OK" tn="Thread Group 1-1" dt="bin" by="8008053" sby="0" ng="1" na="1"/>
+<httpSample t="58" it="0" lt="57" ct="0" ts="1534925831672" s="true" lb="安装说明" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="9332" sby="0" ng="1" na="1"/>
+<httpSample t="83" it="0" lt="30" ct="0" ts="1534925831732" s="true" lb="图片下载" rc="200" rm="OK" tn="Thread Group 1-1" dt="bin" by="42078" sby="0" ng="1" na="1"/>
+
+<httpSample t="72" it="0" lt="69" ct="0" ts="1534925833674" s="true" lb="官网" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="14380" sby="0" ng="1" na="1"/>
+<httpSample t="43" it="0" lt="42" ct="0" ts="1534925833781" s="true" lb="教师频道" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="9744" sby="0" ng="1" na="1"/>
+<httpSample t="2969" it="0" lt="42" ct="0" ts="1534925833825" s="true" lb="教师登录" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="879639" sby="0" ng="1" na="1">
+  <httpSample t="42" it="0" lt="42" ct="0" ts="1534925833825" s="true" lb="http://www.kouyuyi.com/user.do" rc="302" rm="Found" tn="Thread Group 1-1" dt="text" by="341" sby="0" ng="1" na="1"/>
+  <httpSample t="2925" it="0" lt="2061" ct="0" ts="1534925833869" s="true" lb="http://www.kouyuyi.com/task.do?action=tlist" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="879298" sby="0" ng="1" na="1"/>
+</httpSample>
+<httpSample t="1064" it="0" lt="932" ct="0" ts="1534925836798" s="true" lb="学生列表" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="49693" sby="0" ng="1" na="1"/>
+<httpSample t="48" it="0" lt="44" ct="0" ts="1534925837887" s="true" lb="某个学生" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="19194" sby="0" ng="1" na="1"/>
+
+<httpSample t="90" it="0" lt="67" ct="0" ts="1534925839729" s="true" lb="官网" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="14380" sby="0" ng="1" na="1"/>
+<httpSample t="49" it="0" lt="49" ct="0" ts="1534925839848" s="true" lb="教师频道" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="9744" sby="0" ng="1" na="1"/>
+<httpSample t="2725" it="0" lt="40" ct="0" ts="1534925839898" s="true" lb="教师登录" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="879639" sby="0" ng="1" na="1">
+  <httpSample t="40" it="0" lt="40" ct="0" ts="1534925839898" s="true" lb="http://www.kouyuyi.com/user.do" rc="302" rm="Found" tn="Thread Group 1-1" dt="text" by="341" sby="0" ng="1" na="1"/>
+  <httpSample t="2681" it="0" lt="2039" ct="0" ts="1534925839942" s="true" lb="http://www.kouyuyi.com/task.do?action=tlist" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="879298" sby="0" ng="1" na="1"/>
+</httpSample>
+<httpSample t="419" it="0" lt="84" ct="0" ts="1534925842626" s="true" lb="布置作业页" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="127748" sby="0" ng="1" na="1"/>
+<httpSample t="34" it="0" lt="34" ct="0" ts="1534925843073" s="true" lb="课本" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="880" sby="0" ng="1" na="1"/>
+<httpSample t="97" it="0" lt="73" ct="0" ts="1534925843108" s="true" lb="单元" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="12185" sby="0" ng="1" na="1"/>
+<httpSample t="122" it="0" lt="71" ct="0" ts="1534925843208" s="true" lb="笔试习题" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="24190" sby="0" ng="1" na="1"/>
+<httpSample t="96" it="0" lt="96" ct="0" ts="1534925843331" s="true" lb="选题" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="454" sby="0" ng="1" na="1"/>
+<httpSample t="38" it="0" lt="38" ct="0" ts="1534925843429" s="true" lb="作业要求" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="230" sby="0" ng="1" na="1"/>
+<httpSample t="54" it="0" lt="54" ct="0" ts="1534925843469" s="true" lb="发布作业" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="729" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+
+<httpSample t="109" it="0" lt="81" ct="0" ts="1534925845294" s="true" lb="官网" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="14380" sby="0" ng="1" na="1"/>
+<httpSample t="52" it="0" lt="52" ct="0" ts="1534925845442" s="true" lb="教师频道" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="9744" sby="0" ng="1" na="1"/>
+<httpSample t="3211" it="0" lt="40" ct="0" ts="1534925845495" s="true" lb="教师登录" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="880347" sby="0" ng="1" na="1">
+  <httpSample t="40" it="0" lt="40" ct="0" ts="1534925845495" s="true" lb="http://www.kouyuyi.com/user.do" rc="302" rm="Found" tn="Thread Group 1-1" dt="text" by="341" sby="0" ng="1" na="1"/>
+  <httpSample t="3168" it="0" lt="2096" ct="0" ts="1534925845538" s="true" lb="http://www.kouyuyi.com/task.do?action=tlist" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="880006" sby="0" ng="1" na="1"/>
+</httpSample>
+<httpSample t="330" it="0" lt="85" ct="0" ts="1534925848709" s="true" lb="布置作业页" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="127748" sby="0" ng="1" na="1"/>
+<httpSample t="39" it="0" lt="39" ct="0" ts="1534925849067" s="true" lb="课本" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="880" sby="0" ng="1" na="1"/>
+<httpSample t="46" it="0" lt="45" ct="0" ts="1534925849107" s="true" lb="单元" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="12284" sby="0" ng="1" na="1"/>
+<httpSample t="115" it="0" lt="85" ct="0" ts="1534925849153" s="true" lb="听力习题" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="26514" sby="0" ng="1" na="1"/>
+<httpSample t="108" it="0" lt="76" ct="0" ts="1534925849270" s="true" lb="笔试习题" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="28704" sby="0" ng="1" na="1"/>
+<httpSample t="118" it="0" lt="118" ct="0" ts="1534925849380" s="true" lb="单元套题" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="7065" sby="0" ng="1" na="1"/>
+<httpSample t="153" it="0" lt="153" ct="0" ts="1534925849500" s="true" lb="选素材" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="1504" sby="0" ng="1" na="1"/>
+<httpSample t="77" it="0" lt="77" ct="0" ts="1534925849655" s="true" lb="发布单元配套作业" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="729" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+
+<httpSample t="106" it="0" lt="78" ct="0" ts="1534925851547" s="true" lb="官网" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="14380" sby="0" ng="1" na="1"/>
+<httpSample t="51" it="0" lt="51" ct="0" ts="1534925851689" s="true" lb="教师频道" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="9744" sby="0" ng="1" na="1"/>
+<httpSample t="2777" it="0" lt="44" ct="0" ts="1534925851741" s="true" lb="教师登录" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="881056" sby="0" ng="1" na="1">
+  <httpSample t="44" it="0" lt="44" ct="0" ts="1534925851741" s="true" lb="http://www.kouyuyi.com/user.do" rc="302" rm="Found" tn="Thread Group 1-1" dt="text" by="341" sby="0" ng="1" na="1"/>
+  <httpSample t="2729" it="0" lt="2009" ct="0" ts="1534925851789" s="true" lb="http://www.kouyuyi.com/task.do?action=tlist" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="880715" sby="0" ng="1" na="1"/>
+</httpSample>
+<httpSample t="524" it="0" lt="136" ct="0" ts="1534925854522" s="true" lb="布置作业页" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="127748" sby="0" ng="1" na="1"/>
+<httpSample t="38" it="0" lt="38" ct="0" ts="1534925855075" s="true" lb="课本" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="814" sby="0" ng="1" na="1"/>
+<httpSample t="108" it="0" lt="77" ct="0" ts="1534925855115" s="true" lb="单元套题" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="7061" sby="0" ng="1" na="1"/>
+<httpSample t="62" it="0" lt="62" ct="0" ts="1534925855225" s="true" lb="选题" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="463" sby="0" ng="1" na="1"/>
+<httpSample t="36" it="0" lt="36" ct="0" ts="1534925855289" s="true" lb="作业要求" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="230" sby="0" ng="1" na="1"/>
+<httpSample t="67" it="0" lt="67" ct="0" ts="1534925855327" s="true" lb="发布单元套题作业" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="729" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+
+<httpSample t="70" it="0" lt="68" ct="0" ts="1534925857196" s="true" lb="教师频道" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="9744" sby="0" ng="1" na="1"/>
+<httpSample t="2712" it="0" lt="54" ct="0" ts="1534925857300" s="true" lb="教师登录" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="881765" sby="0" ng="1" na="1">
+  <httpSample t="54" it="0" lt="54" ct="0" ts="1534925857300" s="true" lb="http://www.kouyuyi.com/user.do" rc="302" rm="Found" tn="Thread Group 1-1" dt="text" by="341" sby="0" ng="1" na="1"/>
+  <httpSample t="2657" it="0" lt="1972" ct="0" ts="1534925857355" s="true" lb="http://www.kouyuyi.com/task.do?action=tlist" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="881424" sby="0" ng="1" na="1"/>
+</httpSample>
+<httpSample t="538" it="0" lt="128" ct="0" ts="1534925860015" s="true" lb="布置作业页" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="127748" sby="0" ng="1" na="1"/>
+<httpSample t="34" it="0" lt="34" ct="0" ts="1534925860581" s="true" lb="课本" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="880" sby="0" ng="1" na="1"/>
+<httpSample t="90" it="0" lt="39" ct="0" ts="1534925860616" s="true" lb="单元" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="12185" sby="0" ng="1" na="1"/>
+<httpSample t="71" it="0" lt="71" ct="0" ts="1534925860708" s="true" lb="勾选素材" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="734" sby="0" ng="1" na="1"/>
+<httpSample t="33" it="0" lt="33" ct="0" ts="1534925860780" s="true" lb="作业要求" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="230" sby="0" ng="1" na="1"/>
+<httpSample t="110" it="0" lt="110" ct="0" ts="1534925860814" s="true" lb="发布课文单词作业" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="729" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+
+<httpSample t="95" it="0" lt="71" ct="0" ts="1534925862727" s="true" lb="官网" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="14380" sby="0" ng="1" na="1"/>
+<httpSample t="48" it="0" lt="48" ct="0" ts="1534925862854" s="true" lb="教师频道" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="9744" sby="0" ng="1" na="1"/>
+<httpSample t="3278" it="0" lt="53" ct="0" ts="1534925862903" s="true" lb="教师登录" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="883184" sby="0" ng="1" na="1">
+  <httpSample t="53" it="0" lt="53" ct="0" ts="1534925862903" s="true" lb="http://www.kouyuyi.com/user.do" rc="302" rm="Found" tn="Thread Group 1-1" dt="text" by="341" sby="0" ng="1" na="1"/>
+  <httpSample t="3221" it="0" lt="1962" ct="0" ts="1534925862960" s="true" lb="http://www.kouyuyi.com/task.do?action=tlist" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="882843" sby="0" ng="1" na="1"/>
+</httpSample>
+<httpSample t="312" it="0" lt="91" ct="0" ts="1534925866184" s="true" lb="布置作业" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="127748" sby="0" ng="1" na="1"/>
+<httpSample t="47" it="0" lt="47" ct="0" ts="1534925866509" s="true" lb="单元" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="12185" sby="0" ng="1" na="1"/>
+<httpSample t="32" it="0" lt="32" ct="0" ts="1534925866557" s="true" lb="课本" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="880" sby="0" ng="1" na="1"/>
+<httpSample t="103" it="0" lt="103" ct="0" ts="1534925866590" s="true" lb="听力套题-初中" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="8403" sby="0" ng="1" na="1"/>
+<httpSample t="46" it="0" lt="46" ct="0" ts="1534925866695" s="true" lb="选题" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="425" sby="0" ng="1" na="1"/>
+<httpSample t="64" it="0" lt="64" ct="0" ts="1534925866743" s="true" lb="发布听力套题作业" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="729" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+
+<httpSample t="91" it="0" lt="66" ct="0" ts="1534925868611" s="true" lb="官网" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="14380" sby="0" ng="1" na="1"/>
+<httpSample t="47" it="0" lt="46" ct="0" ts="1534925868733" s="true" lb="教师频道" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="9744" sby="0" ng="1" na="1"/>
+<httpSample t="2820" it="0" lt="40" ct="0" ts="1534925868781" s="true" lb="教师登录" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="883892" sby="0" ng="1" na="1">
+  <httpSample t="40" it="0" lt="40" ct="0" ts="1534925868781" s="true" lb="http://www.kouyuyi.com/user.do" rc="302" rm="Found" tn="Thread Group 1-1" dt="text" by="341" sby="0" ng="1" na="1"/>
+  <httpSample t="2776" it="0" lt="2009" ct="0" ts="1534925868825" s="true" lb="http://www.kouyuyi.com/task.do?action=tlist" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="883551" sby="0" ng="1" na="1"/>
+</httpSample>
+<httpSample t="399" it="0" lt="329" ct="0" ts="1534925871602" s="true" lb="布置作业页" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="127748" sby="0" ng="1" na="1"/>
+<httpSample t="33" it="0" lt="32" ct="0" ts="1534925872028" s="true" lb="课本" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="880" sby="0" ng="1" na="1"/>
+<httpSample t="39" it="0" lt="39" ct="0" ts="1534925872062" s="true" lb="单元" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="12185" sby="0" ng="1" na="1"/>
+<httpSample t="77" it="0" lt="73" ct="0" ts="1534925872103" s="true" lb="听力习题" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="26907" sby="0" ng="1" na="1"/>
+<httpSample t="96" it="0" lt="96" ct="0" ts="1534925872181" s="true" lb="选题" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="454" sby="0" ng="1" na="1"/>
+<httpSample t="31" it="0" lt="31" ct="0" ts="1534925872279" s="true" lb="作业要求" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="230" sby="0" ng="1" na="1"/>
+<httpSample t="60" it="0" lt="59" ct="0" ts="1534925872312" s="true" lb="发布听力习题作业" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="729" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+
+<httpSample t="104" it="0" lt="77" ct="0" ts="1534925874174" s="true" lb="官网" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="14380" sby="0" ng="1" na="1"/>
+<httpSample t="49" it="0" lt="48" ct="0" ts="1534925874311" s="true" lb="教师频道" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="9744" sby="0" ng="1" na="1"/>
+<httpSample t="3502" it="0" lt="44" ct="0" ts="1534925874361" s="true" lb="教师登录" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="884811" sby="0" ng="1" na="1">
+  <httpSample t="44" it="0" lt="44" ct="0" ts="1534925874361" s="true" lb="http://www.kouyuyi.com/user.do" rc="302" rm="Found" tn="Thread Group 1-1" dt="text" by="341" sby="0" ng="1" na="1"/>
+  <httpSample t="3454" it="0" lt="2014" ct="0" ts="1534925874409" s="true" lb="http://www.kouyuyi.com/task.do?action=tlist" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="884470" sby="0" ng="1" na="1"/>
+</httpSample>
+<httpSample t="117" it="0" lt="87" ct="0" ts="1534925877866" s="true" lb="历史作业" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="26425" sby="0" ng="1" na="1"/>
+<httpSample t="396" it="0" lt="302" ct="0" ts="1534925878111" s="true" lb="查看详情" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="71603" sby="0" ng="1" na="1"/>
+<httpSample t="47" it="0" lt="47" ct="0" ts="1534925878510" s="true" lb="点击批量写评语" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="9586" sby="0" ng="1" na="1"/>
+<httpSample t="50" it="0" lt="50" ct="0" ts="1534925878578" s="true" lb="发布评语" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="868" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+
+<httpSample t="107" it="0" lt="79" ct="0" ts="1534925880432" s="true" lb="官网" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="14380" sby="0" ng="1" na="1"/>
+<httpSample t="49" it="0" lt="48" ct="0" ts="1534925880581" s="true" lb="教师频道" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="9744" sby="0" ng="1" na="1"/>
+<httpSample t="2824" it="0" lt="70" ct="0" ts="1534925880631" s="true" lb="教师登录" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="884601" sby="0" ng="1" na="1">
+  <httpSample t="70" it="0" lt="70" ct="0" ts="1534925880631" s="true" lb="http://www.kouyuyi.com/user.do" rc="302" rm="Found" tn="Thread Group 1-1" dt="text" by="341" sby="0" ng="1" na="1"/>
+  <httpSample t="2750" it="0" lt="1998" ct="0" ts="1534925880705" s="true" lb="http://www.kouyuyi.com/task.do?action=tlist" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="884260" sby="0" ng="1" na="1"/>
+</httpSample>
+<httpSample t="3103" it="0" lt="1893" ct="0" ts="1534925883458" s="true" lb="作业列表" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="884260" sby="0" ng="1" na="1"/>
+<httpSample t="895" it="0" lt="709" ct="0" ts="1534925886593" s="true" lb="查看详情" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="70401" sby="0" ng="1" na="1"/>
+
+<httpSample t="92" it="0" lt="68" ct="0" ts="1534925889299" s="true" lb="官网" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="14380" sby="0" ng="1" na="1"/>
+<httpSample t="43" it="0" lt="43" ct="0" ts="1534925889428" s="true" lb="教师频道" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="9744" sby="0" ng="1" na="1"/>
+<httpSample t="5052" it="0" lt="39" ct="0" ts="1534925889472" s="true" lb="教师登录" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="884602" sby="0" ng="1" na="1">
+  <httpSample t="39" it="0" lt="39" ct="0" ts="1534925889472" s="true" lb="http://www.kouyuyi.com/user.do" rc="302" rm="Found" tn="Thread Group 1-1" dt="text" by="341" sby="0" ng="1" na="1"/>
+  <httpSample t="5012" it="0" lt="1936" ct="0" ts="1534925889512" s="true" lb="http://www.kouyuyi.com/task.do?action=tlist" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="884261" sby="0" ng="1" na="1"/>
+</httpSample>
+<httpSample t="4609" it="0" lt="2070" ct="0" ts="1534925894527" s="true" lb="作业列表" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="884261" sby="0" ng="1" na="1"/>
+<httpSample t="587" it="0" lt="81" ct="0" ts="1534925899205" s="true" lb="检查作业" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="56074" sby="0" ng="1" na="1"/>
+<httpSample t="98" it="0" lt="41" ct="0" ts="1534925899793" s="true" lb="点击批量写评语" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="8746" sby="0" ng="1" na="1"/>
+<httpSample t="2893" it="0" lt="1952" ct="0" ts="1534925900018" s="true" lb="作业列表" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="883462" sby="0" ng="1" na="1"/>
+<httpSample t="661" it="0" lt="185" ct="0" ts="1534925902945" s="true" lb="检查作业" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="83040" sby="0" ng="1" na="1"/>
+<httpSample t="95" it="0" lt="42" ct="0" ts="1534925903608" s="true" lb="点击批量写评语" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="9598" sby="0" ng="1" na="1"/>
+<httpSample t="40" it="0" lt="40" ct="0" ts="1534925903717" s="true" lb="发布评语" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="868" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="2975" it="0" lt="1912" ct="0" ts="1534925903761" s="true" lb="作业列表" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="882664" sby="0" ng="1" na="1"/>
+<httpSample t="395" it="0" lt="230" ct="0" ts="1534925906750" s="true" lb="检查作业" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="68140" sby="0" ng="1" na="1"/>
+<httpSample t="40" it="0" lt="40" ct="0" ts="1534925907147" s="true" lb="点击批量写评语" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="8746" sby="0" ng="1" na="1"/>
+<httpSample t="2757" it="0" lt="1999" ct="0" ts="1534925907202" s="true" lb="作业列表" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="881865" sby="0" ng="1" na="1"/>
+<httpSample t="1963" it="0" lt="1825" ct="0" ts="1534925909962" s="true" lb="检查作业" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="114081" sby="0" ng="1" na="1"/>
+<httpSample t="39" it="0" lt="38" ct="0" ts="1534925911930" s="true" lb="点击批量写评语" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="8746" sby="0" ng="1" na="1"/>
+<httpSample t="2755" it="0" lt="2035" ct="0" ts="1534925911975" s="true" lb="作业列表" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="881069" sby="0" ng="1" na="1"/>
+<httpSample t="136" it="0" lt="54" ct="0" ts="1534925914742" s="true" lb="检查作业" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="39544" sby="0" ng="1" na="1"/>
+<httpSample t="41" it="0" lt="41" ct="0" ts="1534925914880" s="true" lb="点击批量写评语" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="8746" sby="0" ng="1" na="1"/>
+<httpSample t="2726" it="0" lt="2003" ct="0" ts="1534925914928" s="true" lb="作业列表" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="880270" sby="0" ng="1" na="1"/>
+<httpSample t="670" it="0" lt="112" ct="0" ts="1534925917665" s="true" lb="检查作业" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="273868" sby="0" ng="1" na="1"/>
+<httpSample t="41" it="0" lt="41" ct="0" ts="1534925918336" s="true" lb="点击批量写评语" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="9370" sby="0" ng="1" na="1"/>
+<httpSample t="40" it="0" lt="40" ct="0" ts="1534925918392" s="true" lb="发布评语" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="868" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="2643" it="0" lt="1961" ct="0" ts="1534925918434" s="true" lb="作业列表" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="879471" sby="0" ng="1" na="1"/>
+<httpSample t="915" it="0" lt="750" ct="0" ts="1534925921088" s="true" lb="检查作业" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="92362" sby="0" ng="1" na="1"/>
+<httpSample t="37" it="0" lt="36" ct="0" ts="1534925922004" s="true" lb="点击批量写评语" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="8746" sby="0" ng="1" na="1"/>
+<httpSample t="2751" it="0" lt="2054" ct="0" ts="1534925922049" s="true" lb="作业列表" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="878673" sby="0" ng="1" na="1"/>
+<httpSample t="1131" it="0" lt="1020" ct="0" ts="1534925924812" s="true" lb="检查作业" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="105282" sby="0" ng="1" na="1"/>
+<httpSample t="44" it="0" lt="43" ct="0" ts="1534925925945" s="true" lb="点击批量写评语" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="9154" sby="0" ng="1" na="1"/>
+<httpSample t="45" it="0" lt="45" ct="0" ts="1534925926005" s="true" lb="发布评语" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="868" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="2861" it="0" lt="2089" ct="0" ts="1534925926053" s="true" lb="作业列表" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="877874" sby="0" ng="1" na="1"/>
+<httpSample t="425" it="0" lt="290" ct="0" ts="1534925928924" s="true" lb="检查作业" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="68148" sby="0" ng="1" na="1"/>
+<httpSample t="41" it="0" lt="41" ct="0" ts="1534925929351" s="true" lb="点击批量写评语" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="8746" sby="0" ng="1" na="1"/>
+<httpSample t="2746" it="0" lt="1994" ct="0" ts="1534925929402" s="true" lb="作业列表" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="877075" sby="0" ng="1" na="1"/>
+<httpSample t="197" it="0" lt="60" ct="0" ts="1534925932166" s="true" lb="检查作业" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="46910" sby="0" ng="1" na="1"/>
+<httpSample t="38" it="0" lt="38" ct="0" ts="1534925932364" s="true" lb="点击批量写评语" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="8746" sby="0" ng="1" na="1"/>
+
+<httpSample t="106" it="0" lt="75" ct="0" ts="1534925934252" s="true" lb="官网" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="14380" sby="0" ng="1" na="1"/>
+<httpSample t="49" it="0" lt="49" ct="0" ts="1534925934396" s="true" lb="教师频道" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="9744" sby="0" ng="1" na="1"/>
+<httpSample t="3094" it="0" lt="45" ct="0" ts="1534925934446" s="true" lb="教师登录" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="876619" sby="0" ng="1" na="1">
+  <httpSample t="45" it="0" lt="45" ct="0" ts="1534925934446" s="true" lb="http://www.kouyuyi.com/user.do" rc="302" rm="Found" tn="Thread Group 1-1" dt="text" by="341" sby="0" ng="1" na="1"/>
+  <httpSample t="3045" it="0" lt="1965" ct="0" ts="1534925934495" s="true" lb="http://www.kouyuyi.com/task.do?action=tlist" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="876278" sby="0" ng="1" na="1"/>
+</httpSample>
+<httpSample t="415" it="0" lt="109" ct="0" ts="1534925937543" s="true" lb="创建考试" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="99230" sby="0" ng="1" na="1"/>
+<httpSample t="77" it="0" lt="77" ct="0" ts="1534925938068" s="true" lb="发布考试" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="729" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+
+<httpSample t="79" it="0" lt="77" ct="0" ts="1534925939972" s="true" lb="官网" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="14380" sby="0" ng="1" na="1"/>
+<httpSample t="46" it="0" lt="46" ct="0" ts="1534925940074" s="true" lb="教师频道" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="9744" sby="0" ng="1" na="1"/>
+<httpSample t="2823" it="0" lt="48" ct="0" ts="1534925940121" s="true" lb="教师登录" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="876619" sby="0" ng="1" na="1">
+  <httpSample t="48" it="0" lt="48" ct="0" ts="1534925940121" s="true" lb="http://www.kouyuyi.com/user.do" rc="302" rm="Found" tn="Thread Group 1-1" dt="text" by="341" sby="0" ng="1" na="1"/>
+  <httpSample t="2771" it="0" lt="2020" ct="0" ts="1534925940173" s="true" lb="http://www.kouyuyi.com/task.do?action=tlist" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="876278" sby="0" ng="1" na="1"/>
+</httpSample>
+<httpSample t="103" it="0" lt="98" ct="0" ts="1534925942947" s="true" lb="考试列表" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="30147" sby="0" ng="1" na="1"/>
+<httpSample t="38" it="0" lt="38" ct="0" ts="1534925943171" s="true" lb="查看试题" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="9489" sby="0" ng="1" na="1"/>
+<httpSample t="564" it="0" lt="84" ct="0" ts="1534925943210" s="true" lb="查看成绩" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="147402" sby="0" ng="1" na="1"/>
+<httpSample t="48" it="0" lt="48" ct="0" ts="1534925943777" s="true" lb="班级情况-分数段数据情况" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="320" sby="0" ng="1" na="1"/>
+<httpSample t="36" it="0" lt="36" ct="0" ts="1534925943826" s="true" lb="班级情况-各题型得分情况" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="433" sby="0" ng="1" na="1"/>
+
+<httpSample t="1031" it="0" lt="1028" ct="69" ts="1534925945693" s="true" lb="我的首页" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="18147" sby="167" ng="1" na="1"/>
+<httpSample t="841" it="0" lt="786" ct="0" ts="1534925946740" s="true" lb="训练情况" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="35294" sby="284" ng="1" na="1"/>
+<httpSample t="60" it="0" lt="60" ct="0" ts="1534925947603" s="true" lb="训练情况-查看详情" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="11891" sby="296" ng="1" na="1"/>
+<httpSample t="683" it="0" lt="683" ct="0" ts="1534925947665" s="true" lb="训练情况-搜索" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="8092" sby="313" ng="1" na="1"/>
+<httpSample t="155" it="0" lt="155" ct="33" ts="1534925948350" s="true" lb="我的班级" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="9034" sby="279" ng="1" na="1"/>
+<httpSample t="112" it="0" lt="112" ct="0" ts="1534925948508" s="true" lb="我的班级-搜索1" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="6449" sby="312" ng="1" na="1"/>
+<httpSample t="114" it="0" lt="113" ct="0" ts="1534925948622" s="true" lb="我的班级-搜索2" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="9107" sby="312" ng="1" na="1"/>
+<httpSample t="87" it="0" lt="86" ct="0" ts="1534925948738" s="true" lb="我的班级-搜索3" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="6164" sby="319" ng="1" na="1"/>
+<httpSample t="33" it="0" lt="33" ct="0" ts="1534925948828" s="true" lb="3A课堂-3A介绍" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="5207" sby="239" ng="1" na="1"/>
+<httpSample t="46" it="0" lt="45" ct="0" ts="1534925948863" s="true" lb="3A课堂-资源上传" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="13635" sby="285" ng="1" na="1"/>
+<httpSample t="36" it="0" lt="36" ct="0" ts="1534925948912" s="true" lb="3A课堂-资源上传-上传文件的jsp" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="7664" sby="267" ng="1" na="1"/>
+<httpSample t="52" it="0" lt="52" ct="0" ts="1534925948950" s="true" lb="3A课堂-资源上传-上传填写资料" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="1988" sby="602" ng="1" na="1"/>
+
+<httpSample t="181" it="0" lt="179" ct="65" ts="1534925950773" s="true" lb="选择教材页" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="23249" sby="145" ng="1" na="1"/>
+<httpSample t="35" it="0" lt="35" ct="0" ts="1534925950981" s="true" lb="选择教材" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="230" sby="282" ng="1" na="1"/>
+<httpSample t="41" it="0" lt="41" ct="0" ts="1534925951016" s="true" lb="目录" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="2061" sby="276" ng="1" na="1"/>
+<httpSample t="40" it="0" lt="40" ct="0" ts="1534925951058" s="true" lb="选择单元" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="2269" sby="287" ng="1" na="1"/>
+<httpSample t="32" it="0" lt="32" ct="0" ts="1534925951099" s="false" lb="选择素材" rc="400" rm="Bad Request" tn="线程组 1-1" dt="text" by="1117" sby="283" ng="1" na="1"/>
+<httpSample t="35" it="0" lt="35" ct="0" ts="1534925951132" s="false" lb="查看题目" rc="400" rm="Bad Request" tn="线程组 1-1" dt="text" by="1117" sby="286" ng="1" na="1"/>
+
+<httpSample t="167" it="0" lt="146" ct="66" ts="1534925952958" s="true" lb="试题库" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="41217" sby="162" ng="1" na="1"/>
+<httpSample t="33" it="0" lt="33" ct="0" ts="1534925953150" s="true" lb="选择教材" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="230" sby="282" ng="1" na="1"/>
+<httpSample t="38" it="0" lt="38" ct="0" ts="1534925953183" s="true" lb="选择单元" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="995" sby="276" ng="1" na="1"/>
+<httpSample t="138" it="0" lt="136" ct="0" ts="1534925953222" s="true" lb="听力习题" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="40187" sby="381" ng="1" na="1"/>
+<httpSample t="89" it="0" lt="89" ct="0" ts="1534925953448" s="true" lb="收藏听力习题" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="265" sby="347" ng="1" na="1"/>
+<httpSample t="1397" it="0" lt="164" ct="0" ts="1534925953538" s="true" lb="笔试习题" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="827544" sby="381" ng="1" na="1"/>
+<httpSample t="62" it="0" lt="62" ct="0" ts="1534925954971" s="true" lb="收藏笔试习题" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="265" sby="346" ng="1" na="1"/>
+<httpSample t="76" it="0" lt="76" ct="31" ts="1534925955034" s="true" lb="标签" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="833" sby="306" ng="1" na="1"/>
+<httpSample t="46" it="0" lt="46" ct="0" ts="1534925955114" s="true" lb="试题收藏夹" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="1920" sby="309" ng="1" na="1"/>
+<httpSample t="67" it="0" lt="67" ct="0" ts="1534925955165" s="true" lb="删除试题" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="265" sby="337" ng="1" na="1"/>
+<httpSample t="51" it="0" lt="51" ct="0" ts="1534925955250" s="true" lb="删除标签" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="265" sby="300" ng="1" na="1"/>
+
+<httpSample t="178" it="0" lt="175" ct="83" ts="1534925957104" s="true" lb="中考听力" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="20764" sby="174" ng="1" na="1"/>
+<httpSample t="455" it="0" lt="150" ct="0" ts="1534925957393" s="true" lb="练习模式-打开试卷" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="165189" sby="278" ng="1" na="1"/>
+<httpSample t="497" it="0" lt="306" ct="0" ts="1534925957868" s="true" lb="查看答案" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="139975" sby="304" ng="1" na="1"/>
+
+<httpSample t="228" it="0" lt="94" ct="0" ts="1534925960142" s="true" lb="创建考试" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="85369" sby="0" ng="1" na="1"/>
+<httpSample t="71" it="0" lt="71" ct="0" ts="1534925960503" s="true" lb="发布考试" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="754" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+
+<httpSample t="180" it="0" lt="156" ct="0" ts="1534925962410" s="true" lb="考试列表" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="17427" sby="0" ng="1" na="1"/>
+<httpSample t="45" it="0" lt="45" ct="0" ts="1534925962723" s="true" lb="查看试题" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="9591" sby="0" ng="1" na="1"/>
+<httpSample t="212" it="0" lt="125" ct="0" ts="1534925962769" s="true" lb="查看成绩" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="102557" sby="0" ng="1" na="1"/>
+<httpSample t="42" it="0" lt="42" ct="0" ts="1534925962989" s="true" lb="班级情况-分数段数据情况" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="414" sby="0" ng="1" na="1"/>
+<httpSample t="34" it="0" lt="34" ct="0" ts="1534925963032" s="true" lb="班级情况-各题型得分情况" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="487" sby="0" ng="1" na="1"/>
+
+<httpSample t="297" it="0" lt="110" ct="0" ts="1534925964970" s="true" lb="布置作业页" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="113599" sby="0" ng="1" na="1"/>
+<httpSample t="50" it="0" lt="50" ct="0" ts="1534925965312" s="true" lb="课本" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="880" sby="0" ng="1" na="1"/>
+<httpSample t="41" it="0" lt="41" ct="0" ts="1534925965362" s="true" lb="单元" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="12185" sby="0" ng="1" na="1"/>
+<httpSample t="87" it="0" lt="61" ct="0" ts="1534925965405" s="true" lb="笔试习题" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="24190" sby="0" ng="1" na="1"/>
+<httpSample t="93" it="0" lt="93" ct="0" ts="1534925965494" s="true" lb="选题" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="454" sby="0" ng="1" na="1"/>
+<httpSample t="36" it="0" lt="35" ct="0" ts="1534925965589" s="true" lb="作业要求" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="230" sby="0" ng="1" na="1"/>
+<httpSample t="59" it="0" lt="59" ct="0" ts="1534925965626" s="true" lb="发布作业" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="760" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+
+<httpSample t="304" it="0" lt="136" ct="0" ts="1534925967488" s="true" lb="布置作业页" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="113599" sby="0" ng="1" na="1"/>
+<httpSample t="53" it="0" lt="53" ct="0" ts="1534925967833" s="true" lb="课本" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="880" sby="0" ng="1" na="1"/>
+<httpSample t="40" it="0" lt="40" ct="0" ts="1534925967886" s="true" lb="单元" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="12284" sby="0" ng="1" na="1"/>
+<httpSample t="96" it="0" lt="70" ct="0" ts="1534925967928" s="true" lb="听力习题" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="26514" sby="0" ng="1" na="1"/>
+<httpSample t="97" it="0" lt="67" ct="0" ts="1534925968027" s="true" lb="笔试习题" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="28704" sby="0" ng="1" na="1"/>
+<httpSample t="75" it="0" lt="75" ct="0" ts="1534925968126" s="true" lb="单元套题" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="7065" sby="0" ng="1" na="1"/>
+<httpSample t="145" it="0" lt="145" ct="0" ts="1534925968203" s="true" lb="选素材" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="1504" sby="0" ng="1" na="1"/>
+<httpSample t="61" it="0" lt="61" ct="0" ts="1534925968351" s="true" lb="发布单元配套作业" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="760" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+
+<httpSample t="250" it="0" lt="130" ct="0" ts="1534925970195" s="true" lb="布置作业页" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="113599" sby="0" ng="1" na="1"/>
+<httpSample t="52" it="0" lt="52" ct="0" ts="1534925970497" s="true" lb="课本" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="814" sby="0" ng="1" na="1"/>
+<httpSample t="83" it="0" lt="83" ct="0" ts="1534925970550" s="true" lb="单元套题" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="7061" sby="0" ng="1" na="1"/>
+<httpSample t="60" it="0" lt="60" ct="0" ts="1534925970635" s="true" lb="选题" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="463" sby="0" ng="1" na="1"/>
+<httpSample t="35" it="0" lt="35" ct="0" ts="1534925970700" s="true" lb="作业要求" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="230" sby="0" ng="1" na="1"/>
+<httpSample t="64" it="0" lt="63" ct="0" ts="1534925970736" s="true" lb="发布单元套题作业" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="760" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+
+<httpSample t="303" it="0" lt="206" ct="82" ts="1534925972653" s="true" lb="布置作业" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="113667" sby="170" ng="1" na="1"/>
+<httpSample t="41" it="0" lt="40" ct="0" ts="1534925972972" s="true" lb="添加卡通配音作业-1-3年级" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="22073" sby="275" ng="1" na="1"/>
+<httpSample t="42" it="0" lt="41" ct="0" ts="1534925973016" s="true" lb="添加卡通配音作业-4-6年级" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="32259" sby="275" ng="1" na="1"/>
+<httpSample t="42" it="0" lt="41" ct="0" ts="1534925973061" s="true" lb="添加卡通配音作业-初中" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="23627" sby="275" ng="1" na="1"/>
+<httpSample t="43" it="0" lt="42" ct="0" ts="1534925973105" s="true" lb="添加卡通配音作业-高中" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="20255" sby="275" ng="1" na="1"/>
+<httpSample t="65" it="0" lt="65" ct="0" ts="1534925973150" s="true" lb="确认选择" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="752" sby="382" ng="1" na="1"/>
+<httpSample t="65" it="0" lt="65" ct="0" ts="1534925973216" s="true" lb="发布作业" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="772" sby="611" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+
+<httpSample t="330" it="0" lt="129" ct="0" ts="1534925975106" s="true" lb="布置作业页" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="113599" sby="0" ng="1" na="1"/>
+<httpSample t="50" it="0" lt="50" ct="0" ts="1534925975483" s="true" lb="课本" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="880" sby="0" ng="1" na="1"/>
+<httpSample t="41" it="0" lt="41" ct="0" ts="1534925975533" s="true" lb="单元" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="12185" sby="0" ng="1" na="1"/>
+<httpSample t="65" it="0" lt="65" ct="0" ts="1534925975576" s="true" lb="勾选素材" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="734" sby="0" ng="1" na="1"/>
+<httpSample t="31" it="0" lt="31" ct="0" ts="1534925975643" s="true" lb="作业要求" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="230" sby="0" ng="1" na="1"/>
+<httpSample t="91" it="0" lt="91" ct="0" ts="1534925975676" s="true" lb="发布课文单词作业" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="760" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+
+<httpSample t="377" it="0" lt="150" ct="0" ts="1534925977567" s="true" lb="布置作业" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="113599" sby="0" ng="1" na="1"/>
+<httpSample t="68" it="0" lt="68" ct="0" ts="1534925977997" s="true" lb="单元" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="12185" sby="0" ng="1" na="1"/>
+<httpSample t="41" it="0" lt="41" ct="0" ts="1534925978066" s="true" lb="课本" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="880" sby="0" ng="1" na="1"/>
+<httpSample t="101" it="0" lt="101" ct="0" ts="1534925978109" s="true" lb="听力套题-初中" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="8403" sby="0" ng="1" na="1"/>
+<httpSample t="55" it="0" lt="55" ct="0" ts="1534925978213" s="true" lb="选题" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="425" sby="0" ng="1" na="1"/>
+<httpSample t="68" it="0" lt="68" ct="0" ts="1534925978269" s="true" lb="发布听力套题作业" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="760" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+
+<httpSample t="249" it="0" lt="152" ct="0" ts="1534925980172" s="true" lb="布置作业页" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="113599" sby="0" ng="1" na="1"/>
+<httpSample t="52" it="0" lt="52" ct="0" ts="1534925980463" s="true" lb="课本" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="880" sby="0" ng="1" na="1"/>
+<httpSample t="46" it="0" lt="46" ct="0" ts="1534925980515" s="true" lb="单元" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="12185" sby="0" ng="1" na="1"/>
+<httpSample t="76" it="0" lt="73" ct="0" ts="1534925980564" s="true" lb="听力习题" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="26907" sby="0" ng="1" na="1"/>
+<httpSample t="112" it="0" lt="112" ct="0" ts="1534925980642" s="true" lb="选题" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="454" sby="0" ng="1" na="1"/>
+<httpSample t="35" it="0" lt="35" ct="0" ts="1534925980756" s="true" lb="作业要求" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="230" sby="0" ng="1" na="1"/>
+<httpSample t="82" it="0" lt="82" ct="0" ts="1534925980792" s="true" lb="发布听力习题作业" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="760" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+
+<httpSample t="253" it="0" lt="173" ct="65" ts="1534925982739" s="true" lb="布置作业" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="113794" sby="170" ng="1" na="1"/>
+<httpSample t="68" it="0" lt="40" ct="0" ts="1534925983008" s="true" lb="添加听说套题作业-初中" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="75726" sby="275" ng="1" na="1"/>
+<httpSample t="42" it="0" lt="42" ct="0" ts="1534925983081" s="true" lb="查看试卷1" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="4777" sby="270" ng="1" na="1"/>
+<httpSample t="119" it="0" lt="40" ct="0" ts="1534925983124" s="true" lb="高中" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="255083" sby="275" ng="1" na="1"/>
+<httpSample t="36" it="0" lt="36" ct="0" ts="1534925983246" s="true" lb="查看试卷2" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="541" sby="270" ng="1" na="1"/>
+<httpSample t="48" it="0" lt="48" ct="0" ts="1534925983283" s="true" lb="确认选择" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="582" sby="386" ng="1" na="1"/>
+<httpSample t="57" it="0" lt="57" ct="0" ts="1534925983332" s="true" lb="发布作业" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="772" sby="697" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+
+<httpSample t="338" it="0" lt="336" ct="68" ts="1534925985356" s="true" lb="历史作业列表" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="13910" sby="167" ng="1" na="1"/>
+<httpSample t="999" it="0" lt="848" ct="0" ts="1534925985728" s="true" lb="历史作业-查看详情" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="89228" sby="304" ng="1" na="1"/>
+<httpSample t="64" it="0" lt="64" ct="0" ts="1534925986843" s="true" lb="作业内容-听力习题" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="7863" sby="311" ng="1" na="1"/>
+<httpSample t="52" it="0" lt="52" ct="0" ts="1534925986923" s="true" lb="作业内容-笔试习题" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="7210" sby="311" ng="1" na="1"/>
+<httpSample t="335" it="0" lt="224" ct="31" ts="1534925986994" s="true" lb="作业内容-单元套题-查看试题" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="198918" sby="169" ng="1" na="1"/>
+<httpSample t="43" it="0" lt="43" ct="0" ts="1534925987347" s="true" lb="批量写评语" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="8783" sby="270" ng="1" na="1"/>
+
+<httpSample t="3090" it="0" lt="2158" ct="71" ts="1534925989214" s="true" lb="作业列表" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="934647" sby="167" ng="1" na="1"/>
+<httpSample t="1214" it="0" lt="1121" ct="27" ts="1534925992375" s="true" lb="查看详情" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="100455" sby="304" ng="1" na="1"/>
+<httpSample t="73" it="0" lt="73" ct="0" ts="1534925993704" s="true" lb="作业内容-听力习题" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="24923" sby="455" ng="1" na="1"/>
+<httpSample t="64" it="0" lt="63" ct="0" ts="1534925993798" s="true" lb="作业内容-笔试习题" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="22126" sby="455" ng="1" na="1"/>
+<httpSample t="310" it="0" lt="202" ct="28" ts="1534925993869" s="true" lb="作业内容-单元套题-查看试题" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="194101" sby="169" ng="1" na="1"/>
+
+<httpSample t="3182" it="0" lt="2265" ct="74" ts="1534925996012" s="true" lb="作业列表" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="934599" sby="167" ng="1" na="1"/>
+<httpSample t="261" it="0" lt="154" ct="27" ts="1534925999266" s="true" lb="检查作业" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="60269" sby="304" ng="1" na="1"/>
+<httpSample t="41" it="0" lt="41" ct="0" ts="1534925999653" s="true" lb="批量写评语" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="8776" sby="270" ng="1" na="1"/>
+
+</testResults>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Me"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="11.240">
+  <properties />
+  
+  
+            <testcase name="testMore" time="6.301" classname="feishuo.KyyAppUITest.Prize" />
+                <testcase name="testBuy" time="4.939" classname="feishuo.KyyAppUITest.Prize" />
+      
+</testsuite>
