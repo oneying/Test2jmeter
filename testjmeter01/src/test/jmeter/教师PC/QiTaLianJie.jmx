@@ -12,7 +12,7 @@
     </TestPlan>
     <hashTree>
       <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="网址" enabled="true">
-        <stringProp name="filename">C:\Users\admin\.jenkins\workspace\testjmeter01\src\test\resources\TeacherPC_IP.txt</stringProp>
+        <stringProp name="filename">C:\Users\admin\.jenkins\workspace\testjmeter01\src\test\resources\TeacherPC_IP.csv</stringProp>
         <stringProp name="fileEncoding">utf-8</stringProp>
         <stringProp name="variableNames">Protocol,IP,Port</stringProp>
         <boolProp name="ignoreFirstLine">false</boolProp>

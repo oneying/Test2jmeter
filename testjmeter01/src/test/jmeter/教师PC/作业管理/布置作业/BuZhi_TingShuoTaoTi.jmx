@@ -12,7 +12,7 @@
     </TestPlan>
     <hashTree>
       <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="网址" enabled="true">
-        <stringProp name="filename">C:\Users\admin\.jenkins\workspace\testjmeter01\src\test\resources\TeacherPC_IP.txt</stringProp>
+        <stringProp name="filename">C:\Users\admin\.jenkins\workspace\testjmeter01\src\test\resources\TeacherPC_IP.csv</stringProp>
         <stringProp name="fileEncoding">utf-8</stringProp>
         <stringProp name="variableNames">Protocol,IP,Port</stringProp>
         <boolProp name="ignoreFirstLine">false</boolProp>
@@ -24,7 +24,7 @@
       </CSVDataSet>
       <hashTree/>
       <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="教师账号" enabled="true">
-        <stringProp name="filename">C:\Users\admin\.jenkins\workspace\testjmeter01\src\test\resources\PC_teacher_sessionKey.txt</stringProp>
+        <stringProp name="filename">C:\Users\admin\.jenkins\workspace\testjmeter01\src\test\resources\PC_teacher_sessionKey.csv</stringProp>
         <stringProp name="fileEncoding">utf-8</stringProp>
         <stringProp name="variableNames">TeacherSession</stringProp>
         <boolProp name="ignoreFirstLine">false</boolProp>
@@ -36,7 +36,7 @@
       </CSVDataSet>
       <hashTree/>
       <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="班级id" enabled="true">
-        <stringProp name="filename">C:\Users\admin\.jenkins\workspace\testjmeter01\src\test\resources\classID.txt</stringProp>
+        <stringProp name="filename">C:\Users\admin\.jenkins\workspace\testjmeter01\src\test\resources\classID.csv</stringProp>
         <stringProp name="fileEncoding">utf-8</stringProp>
         <stringProp name="variableNames">classID</stringProp>
         <boolProp name="ignoreFirstLine">false</boolProp>
@@ -119,7 +119,7 @@
             </RegexExtractor>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="添加听说套题作业-初中" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="添加听说套题作业-选初中" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
               <collectionProp name="Arguments.arguments">
                 <elementProp name="action" elementType="HTTPArgument">
@@ -163,41 +163,48 @@
             </RegexExtractor>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="查看试卷1" enabled="true">
-            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
-              <collectionProp name="Arguments.arguments">
-                <elementProp name="action" elementType="HTTPArgument">
-                  <boolProp name="HTTPArgument.always_encode">true</boolProp>
-                  <stringProp name="Argument.value">showUnit</stringProp>
-                  <stringProp name="Argument.metadata">=</stringProp>
-                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
-                  <stringProp name="Argument.name">action</stringProp>
-                </elementProp>
-                <elementProp name="keyWord" elementType="HTTPArgument">
-                  <boolProp name="HTTPArgument.always_encode">true</boolProp>
-                  <stringProp name="Argument.value">${PaperID1}</stringProp>
-                  <stringProp name="Argument.metadata">=</stringProp>
-                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
-                  <stringProp name="Argument.name">keyWord</stringProp>
-                </elementProp>
-              </collectionProp>
-            </elementProp>
-            <stringProp name="HTTPSampler.domain">${IP}</stringProp>
-            <stringProp name="HTTPSampler.port">${Port}</stringProp>
-            <stringProp name="HTTPSampler.protocol">${Protocol}</stringProp>
-            <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
-            <stringProp name="HTTPSampler.path">/unit.do</stringProp>
-            <stringProp name="HTTPSampler.method">GET</stringProp>
-            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
-            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
-            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
-            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
-            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
-            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
-            <stringProp name="HTTPSampler.response_timeout"></stringProp>
-          </HTTPSamplerProxy>
-          <hashTree/>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="高中" enabled="true">
+          <IfController guiclass="IfControllerPanel" testclass="IfController" testname="如果（If）控制器" enabled="true">
+            <stringProp name="TestPlan.comments">如果试卷不为空，就执行</stringProp>
+            <stringProp name="IfController.condition">&quot;${PaperID1}&quot;!=&quot;ZERO&quot;</stringProp>
+            <boolProp name="IfController.evaluateAll">false</boolProp>
+          </IfController>
+          <hashTree>
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="查看试卷1" enabled="true">
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+                <collectionProp name="Arguments.arguments">
+                  <elementProp name="action" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                    <stringProp name="Argument.value">showUnit</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                    <stringProp name="Argument.name">action</stringProp>
+                  </elementProp>
+                  <elementProp name="keyWord" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                    <stringProp name="Argument.value">${PaperID1}</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                    <stringProp name="Argument.name">keyWord</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </elementProp>
+              <stringProp name="HTTPSampler.domain">${IP}</stringProp>
+              <stringProp name="HTTPSampler.port">${Port}</stringProp>
+              <stringProp name="HTTPSampler.protocol">${Protocol}</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
+              <stringProp name="HTTPSampler.path">/unit.do</stringProp>
+              <stringProp name="HTTPSampler.method">GET</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+              <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+              <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+              <stringProp name="HTTPSampler.response_timeout"></stringProp>
+            </HTTPSamplerProxy>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="选高中" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
               <collectionProp name="Arguments.arguments">
                 <elementProp name="action" elementType="HTTPArgument">
@@ -287,7 +294,7 @@
                 </elementProp>
                 <elementProp name="p21" elementType="HTTPArgument">
                   <boolProp name="HTTPArgument.always_encode">true</boolProp>
-                  <stringProp name="Argument.value">,${PaperID1}#undefined,${PaperID2}#undefined</stringProp>
+                  <stringProp name="Argument.value">,${PaperID2}#undefined</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
                   <boolProp name="HTTPArgument.use_equals">true</boolProp>
                   <stringProp name="Argument.name">p21</stringProp>
@@ -389,13 +396,6 @@
                   <stringProp name="Argument.metadata">=</stringProp>
                   <boolProp name="HTTPArgument.use_equals">true</boolProp>
                   <stringProp name="Argument.name">tempStr2</stringProp>
-                </elementProp>
-                <elementProp name="p21" elementType="HTTPArgument">
-                  <boolProp name="HTTPArgument.always_encode">true</boolProp>
-                  <stringProp name="Argument.value">${PaperID1}</stringProp>
-                  <stringProp name="Argument.metadata">=</stringProp>
-                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
-                  <stringProp name="Argument.name">p21</stringProp>
                 </elementProp>
                 <elementProp name="p21" elementType="HTTPArgument">
                   <boolProp name="HTTPArgument.always_encode">true</boolProp>
